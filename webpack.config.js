@@ -59,7 +59,7 @@ module.exports = env => {
         {
           test: /\.(jpe?g|png)/,
           use: {
-            loader: 'url-loader',
+            loader: 'file-loader',
             options: {
               name: 'assets/[name].[ext]'
             },
