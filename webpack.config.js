@@ -71,12 +71,10 @@ module.exports = env => {
     output: {
       path: path.resolve(__dirname, 'docs'),
       filename: '[name].js',
-      publicPath: '/',
     },
 
     devServer: isDev ? {
       port: 8000,
-      publicPath: '/',
       historyApiFallback: true,
       compress: true,
       hot: true,
