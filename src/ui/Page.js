@@ -1,9 +1,9 @@
 import React from 'react';
 import Header from './Header' ;
 
-export default ({children}) => (
+export default ({ children, match }) => (
   <div>
-    <Header />
+    <Header match={match} />
     <div className="content">
       {children}
     </div>

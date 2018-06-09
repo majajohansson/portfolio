@@ -3,8 +3,8 @@ import articleMoankPicture from '../assets/article-moank.png';
 import { Article, Page } from '../ui';
 
 
-export default () => (
-  <Page>
+export default ({ match }) => (
+  <Page match={match}>
     <Article
       picture={articleMoankPicture}
       title="Check what I did at Moank"
