@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import HeaderLink from './HeaderLink';
 
 const links = [
   {
@@ -16,13 +17,14 @@ export default ({ match }) => (
   <div className="header">
     <div className="header__title">Maja Johansson</div>
     <div className="header__nav">
-      {links.map((link, index) => match.path === link.path ?
-        <div className="header__nav__item header__nav__item--active">
-          {link.title}
-        </div> :
-        <div className="header__nav__item header__nav__item--inactive">
-          <Link to={link.path}>{link.title}</Link>
-        </div>)}
+      {links.map((link, index) => (
+        <HeaderLink
+          path={link.path}
+          title={link.title}
+          active={match.path === link.path}
+          key={index}
+        />
+      ))}
     </div>
   </div>
 );
