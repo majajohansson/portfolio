@@ -9,7 +9,7 @@ export default () => (
       <div className="header__title">Maja Johansson</div>
       <div className="header__nav">
         <div className="header__nav__item">Work</div>
-        <div className="header__nav__item">About me</div>
+        <div className="header__nav__item header__nav__item--inactive">About me</div>
       </div>
     </div>
     <div className="content">
