@@ -15,7 +15,7 @@ const links = [
 
 export default ({ match }) => (
   <div className="header">
-    <div className="header__title">Maja Johansson</div>
+    <div className="header__title"><Link to="/">Maja Johansson</Link></div>
     <div className="header__nav">
       {links.map((link, index) => (
         <HeaderLink
