@@ -78,16 +78,18 @@ a:hover {
 .article__description__header {
   font-size: 26px;
   margin: 40px 0;
+  width: 90%;
 }
 
 .article__description__text {
   margin: 20px 0;
-  width: 80%;
+  width: 90%;
 }
 
 .article__description__link {
   margin-top: 20px;
   font-size: 18px;
+  width: 90%;
 }
 
 .article__description__link a {
@@ -176,7 +178,7 @@ a:hover {
     position: static;
   }
 
-  .article__description__text {
+  .article__description__text, .article__description__link, .article__description__header {
     width: 100%;
   }
 
