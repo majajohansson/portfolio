@@ -4,6 +4,11 @@ body {
   line-height: 26px;
 }
 
+body, html, #app {
+  height: 100%;
+  margin: 0;
+}
+
 a {
   color: #adadad;
   text-decoration: none;
@@ -16,6 +21,8 @@ a:hover {
 .page {
   max-width: 1800px;
   margin: auto;
+  min-height: 100%;
+  position: relative;
 }
 
 .header {
@@ -52,14 +59,17 @@ a:hover {
   width: 60%;
   margin: auto;
   margin-top: 10%;
+  padding-bottom: 120px;
 }
 
 .footer {
   text-align: center;
-  margin: 40px 0;
-  height: 40px;
-  line-height: 40px;
+  height: 120px;
+  line-height: 120px;
   font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .article {
