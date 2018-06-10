@@ -15,7 +15,7 @@ export default ({ picture, title, children, slug }) => (
         {children}
       </div>
       <div className="article__description__link">
-        <Link to={`/article/${slug}`}>Read more <img src={arrow} /></Link>
+        <Link to={`/article/${slug}`}>Read more<img src={arrow} /></Link>
       </div>
     </div>
   </div>
