@@ -4,8 +4,12 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #adadad;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .header {
@@ -86,6 +90,29 @@ a {
   display: inline-block;
 }
 
+.profile__picture {
+  width: 30%;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.profile__description {
+  width: 50%;
+  padding: 0 10%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: justify;
+}
+
+.contact {
+  margin: 40px 0;
+}
+
+.contact__list__item {
+  margin: 10px 0;
+}
+
 @media (max-width: 900px) {
   .article {
     padding: 7.5%;
@@ -105,16 +132,36 @@ a {
     position: static;
   }
 
+  .article__description__text {
+    width: 100%;
+  }
+
   .content {
     width: 80%;
     margin: auto;
     margin-top: 100px;
+  }
+
+  .profile__picture {
+    display: block;
+    width: 40%;
+    margin: auto;
+  }
+
+  .profile__description {
+    display: block;
+    width: 100%;
+    padding: 0;
   }
 }
 
 @media (max-width: 768px) {
   .article {
     padding: 10%;
+  }
+
+  .header {
+    text-align: center;
   }
 
   .header__title {
@@ -126,7 +173,7 @@ a {
     margin-top: 20px;
     display: block;
     width: 100%;
-    text-align: left;
+    text-align: center;
   }
 
   .content {

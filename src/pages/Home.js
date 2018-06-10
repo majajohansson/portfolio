@@ -7,9 +7,10 @@ export default ({ match }) => (
   <Page match={match}>
     <Article
       picture={articleMoankPicture}
-      title="Check what I did at Moank"
+      title="Revamp of loan company website"
     >
-      I did something amazing and you can't wait to check it out. You really should
+    During the spring of 2018 I was hired by Moank, a company specialising in consumer loans, to do a revamp of the website.<br />
+    The following are a few examples of what I worked on.
     </Article>
   </Page>
 )
