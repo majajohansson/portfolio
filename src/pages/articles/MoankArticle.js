@@ -5,10 +5,12 @@ import signupFlow from '../../assets/signupflow.png';
 import signupFlowNew from '../../assets/signupflownew.png';
 import myPayments from '../../assets/mypayments.png';
 import myPaymentsNew from '../../assets/mypaymentsnew.png';
+import articleMoankPicture from '../../assets/article-moank.png';
 
 export default ({ match }) => (
   <Page match={match}>
     <h1 className="post__title">Revamp of loan company website</h1>
+    <img className="post__main-image" src={articleMoankPicture} />
     <p className="post__paragraph">
       During the spring of 2018 I was hired by Moank, a company specialising in consumer loans, to do a revamp of the website.<br />
       The following are a few examples of what I worked on.
