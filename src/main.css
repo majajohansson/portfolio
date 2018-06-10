@@ -13,6 +13,11 @@ a:hover {
   text-decoration: underline;
 }
 
+.page {
+  max-width: 1800px;
+  margin: auto;
+}
+
 .header {
   padding: 40px 10%;
 }

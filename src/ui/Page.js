@@ -3,7 +3,7 @@ import Header from './Header';
 import Footer from './Footer';
 
 export default ({ children, match }) => (
-  <div>
+  <div className="page">
     <Header match={match} />
     <div className="content">
       {children}
