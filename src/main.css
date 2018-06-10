@@ -51,7 +51,11 @@ a:hover {
   margin: 0 20px;
 }
 
-.header__nav__item--inactive {
+.header__nav__item--inactive a {
+  color: #000000;
+}
+
+.header__nav__item--active {
   color: #adadad;
 }
 
