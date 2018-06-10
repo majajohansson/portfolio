@@ -35,6 +35,7 @@ module.exports = env => {
     mode: isDev ? 'development' : 'production',
     name: 'portfolio',
     entry: [
+      'babel-polyfill',
       path.resolve(__dirname, 'src', 'index.js'),
       path.resolve(__dirname, 'src', 'main.css'),
     ],
