@@ -1,6 +1,7 @@
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 16px;
+  line-height: 26px;
 }
 
 a {
@@ -46,6 +47,14 @@ a:hover {
   width: 60%;
   margin: auto;
   margin-top: 200px;
+}
+
+.footer {
+  text-align: center;
+  margin: 40px 0;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
 }
 
 .article {
@@ -135,7 +144,6 @@ a:hover {
 
 .post__paragraph {
   text-align: justify;
-  line-height: 26px;
 }
 
 .post__image {
