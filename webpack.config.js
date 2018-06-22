@@ -62,7 +62,9 @@ module.exports = env => {
           use: {
             loader: 'file-loader',
             options: {
-              name: 'assets/[name].[ext]'
+              name: '[name].[ext]',
+              publicPath: '/assets',
+              outputPath: 'assets',
             },
           },
         },
