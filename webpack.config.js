@@ -38,6 +38,7 @@ module.exports = env => {
       'babel-polyfill',
       path.resolve(__dirname, 'src', 'index.js'),
       path.resolve(__dirname, 'src', 'main.css'),
+      path.resolve(__dirname, 'src', '404.html'),
     ],
 
     module: {
@@ -67,6 +68,15 @@ module.exports = env => {
               outputPath: 'assets',
             },
           },
+        },
+        {
+          test: /\.html$/,
+          exclude: /index\.html/,
+          use: [
+            { loader: 'file-loader', options: { name: '[name].[ext]' } },
+            'extract-loader',
+            { loader: 'html-loader', options: { minimize: !isDev } },
+          ],
         },
       ],
     },
