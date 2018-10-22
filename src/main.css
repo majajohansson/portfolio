@@ -1,7 +1,7 @@
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
 }
 
 body, html, #app {
@@ -107,26 +107,28 @@ a:hover {
 
 .article {
   background-color: #f2f2f2;
-  padding: 5%;
 }
 
 .article__description {
   display: inline-block;
-  width: 50%;
+  width: calc(60% - 3rem);
   vertical-align: middle;
   position: relative;
-  right: 50%;
+  right: 40%;
+  padding: 1.5rem;
 }
 
 .article__description__header {
-  font-size: 26px;
-  margin: 40px 0;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  margin: 20px 0;
   width: 90%;
 }
 
 .article__description__text {
   margin: 20px 0;
   width: 90%;
+  font-size: 1rem;
 }
 
 .article__description__link {
@@ -148,14 +150,14 @@ a:hover {
 .article__image {
   display: inline-block;
   vertical-align: middle;
-  width: 50%;
+  width: 40%;
   position: relative;
-  left: 50%;
+  left: 60%;
 }
 
 .article__image img {
   width: 100%;
-  display: inline-block;
+  display: block;
 }
 
 .profile__picture {
@@ -188,7 +190,7 @@ a:hover {
 
 .post__header {
   font-weight: normal;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .post__paragraph {
@@ -197,13 +199,13 @@ a:hover {
 
 .post__image {
   display: block;
-  width: 60%;
+  width: 100%;
   margin: 50px auto;
 }
 
 .post__main-image {
   display: block;
-  width: 60%;
+  width: 100%;
   margin: 50px auto;
 }
 

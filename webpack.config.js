@@ -84,6 +84,7 @@ module.exports = env => {
     output: {
       path: path.resolve(__dirname, 'docs'),
       filename: '[name].js',
+      publicPath: '/',
     },
 
     devServer: isDev ? {
@@ -91,6 +92,7 @@ module.exports = env => {
       historyApiFallback: true,
       compress: true,
       hot: true,
+      publicPath: '/',
       watchOptions: { ignored: /node_modules/ },
     } : {},
 
