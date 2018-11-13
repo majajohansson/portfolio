@@ -60,7 +60,7 @@ a:hover {
 }
 
 .content {
-  width: 60%;
+  width: 65rem;
   margin: auto;
   margin-top: 7%;
   padding-bottom: 120px;
@@ -107,14 +107,18 @@ a:hover {
 
 .article {
   background-color: #f2f2f2;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin: 3rem 0;
+  height: 20rem;
 }
 
 .article__description {
   display: inline-block;
-  width: calc(60% - 3rem);
   vertical-align: middle;
   position: relative;
-  right: 40%;
   padding: 1.5rem;
 }
 
@@ -150,9 +154,9 @@ a:hover {
 .article__image {
   display: inline-block;
   vertical-align: middle;
-  width: 40%;
   position: relative;
-  left: 60%;
+  width: 29.4117rem;
+  flex-shrink: 0;
 }
 
 .article__image img {
@@ -160,23 +164,29 @@ a:hover {
   display: block;
 }
 
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .profile__picture {
   width: 30%;
   border-radius: 50%;
-  display: inline-block;
   vertical-align: middle;
+  margin: 2rem;
 }
 
 .profile__description {
   width: 50%;
-  padding: 0 10%;
-  display: inline-block;
+  padding: 2rem;
   vertical-align: middle;
   text-align: justify;
 }
 
 .contact {
-  margin: 40px 0;
+  margin: 40px auto;
+  width: calc(100% - 6rem);
 }
 
 .contact__list__item {
@@ -197,21 +207,21 @@ a:hover {
   text-align: justify;
 }
 
-.post__image {
+.post__main-image, .post__image {
   display: block;
-  width: 100%;
+  width: 40rem;
   margin: 50px auto;
 }
 
-.post__main-image {
-  display: block;
-  width: 100%;
-  margin: 50px auto;
-}
-
-@media (max-width: 900px) {
+@media (max-width: 65rem) {
   .article {
-    padding: 7.5%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 2rem;
+    width: 35rem;
+    margin: 3rem auto;
   }
 
   .article__image {
@@ -223,7 +233,7 @@ a:hover {
 
   .article__description {
     display: block;
-    width: 100%;
+    width: calc(100% - 3rem);
     margin: auto;
     position: static;
   }
@@ -233,26 +243,39 @@ a:hover {
   }
 
   .content {
-    width: 80%;
-    margin: auto;
-  }
-
-  .profile__picture {
-    display: block;
-    width: 40%;
-    margin: auto;
-  }
-
-  .profile__description {
-    display: block;
     width: 100%;
-    padding: 0;
+  }
+
+  .post__title, .post__header, .post__paragraph, .post__image {
+    padding: 0 2rem;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 50rem) {
+  .profile {
+    flex-direction: column;
+  }
+
+  .profile__picture {
+    width: 40%;
+  }
+
+  .profile__description {
+    width: calc(100% - 8rem);
+  }
+
+  .contact {
+    width: calc(100% - 8rem);
+  }
+
+  .post__main-image, .post__image {
+    width: 80%;
+  }
+}
+
+@media (max-width: 40rem) {
   .article {
-    padding: 10%;
+    width: calc(100% - 4rem);
   }
 
   .header {
@@ -279,6 +302,19 @@ a:hover {
     width: 90%;
     margin: auto;
     margin-top: 0;
+  }
+
+  .post__title, .post__header, .post__paragraph, .post__image {
+    padding: 0;
+  }
+
+  .profile__description {
+    padding: 0;
+    width: 100%;
+  }
+
+  .contact {
+    width: 100%;
   }
 
   .post__image {
