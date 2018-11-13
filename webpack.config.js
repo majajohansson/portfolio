@@ -8,8 +8,8 @@ module.exports = env => {
 
   const plugins = [
     new MiniCssExtractPlugin({
-      filename: "[name].css",
-      chunkFilename: "[id].css"
+      filename: "[name].[hash].css",
+      chunkFilename: "[id].[hash].css"
     }),
     new HtmlWebpackPlugin({
       inject: true,
@@ -63,7 +63,7 @@ module.exports = env => {
           use: {
             loader: 'file-loader',
             options: {
-              name: '[name].[ext]',
+              name: '[name].[hash].[ext]',
               publicPath: '/assets',
               outputPath: 'assets',
             },
@@ -83,7 +83,7 @@ module.exports = env => {
 
     output: {
       path: path.resolve(__dirname, 'docs'),
-      filename: '[name].js',
+      filename: '[name].[hash].js',
       publicPath: '/',
     },
 
