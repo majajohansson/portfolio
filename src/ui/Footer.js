@@ -1,7 +1,8 @@
 import React from 'react';
+import { StyledFooter } from '../styledComponents';
 
 export default () => (
-  <div className="footer">
+  <StyledFooter>
     Copyright &copy; {new Date().getFullYear()} Maja Johansson
-  </div>
+  </StyledFooter>
 );
