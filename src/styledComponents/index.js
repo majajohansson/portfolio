@@ -16,6 +16,8 @@ import StyledMenuLink from './StyledMenuLink';
 import StyledPage from './StyledPage';
 import StyledPageContent from './StyledPageContent';
 import StyledParagraph from './StyledParagraph';
+import StyledProfile from './StyledProfile';
+import StyledProfileDescription from './StyledProfileDescription';
 
 export {
   StyledArrowLink,
@@ -36,4 +38,6 @@ export {
   StyledPage,
   StyledPageContent,
   StyledParagraph,
+  StyledProfile,
+  StyledProfileDescription,
 };
