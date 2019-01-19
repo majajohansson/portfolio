@@ -9,7 +9,7 @@ import {
 } from '../styledComponents';
 import profilePicture from '../assets/maja.jpg';
 
-export default ({ match }) => (
+const AboutMe = ({ match }) => (
   <Page match={match}>
     <StyledProfile>
       <img src={profilePicture} />
@@ -27,4 +27,6 @@ export default ({ match }) => (
       </ul>
     </StyledContact>
   </Page>
-)
+);
+
+export default AboutMe;

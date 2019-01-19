@@ -4,7 +4,7 @@ import { StyledParagraph, StyledH1, StyledH2, StyledPost } from '../../styledCom
 
 import articleNewProductsPicture from '../../assets/Masthead.png';
 
-export default ({ match }) => (
+const NewProductsArticle = ({ match }) => (
   <Page match={match}>
     <StyledPost>
       <StyledH1>Releasing new products</StyledH1>
@@ -14,4 +14,6 @@ export default ({ match }) => (
       <StyledParagraph>I am currently working on creating a set of illustrations that will be used as hero images and also throughout the website. I am making the illustrations in Sketch. Soon I will be able to share more pictures and comments on what I have been working on this fall.</StyledParagraph>
     </StyledPost>
   </Page>
-)
+);
+
+export default NewProductsArticle;

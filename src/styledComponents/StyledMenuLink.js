@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import StyledLink from './StyledLink';
 
-const StyledMenu = styled.div`
+const StyledMenuLink = styled.div`
   display: inline-block;
   margin: 0 1.25rem;
   color: ${props => props.active ? '#adadad' : '#000000'};
@@ -11,4 +11,4 @@ const StyledMenu = styled.div`
   }
 `;
 
-export default StyledMenu;
+export default StyledMenuLink;

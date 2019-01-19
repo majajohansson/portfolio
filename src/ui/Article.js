@@ -11,7 +11,7 @@ import {
 } from '../styledComponents';
 import ArrowLink from './ArrowLink';
 
-export default ({ picture, title, children, slug }) => (
+const Article = ({ picture, title, children, slug }) => (
   <StyledArticle>
     <StyledArticleImage src={picture} />
     <StyledArticleDescription>
@@ -25,3 +25,5 @@ export default ({ picture, title, children, slug }) => (
     </StyledArticleDescription>
   </StyledArticle>
 );
+
+export default Article;

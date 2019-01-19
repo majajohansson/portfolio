@@ -5,7 +5,7 @@ import { StyledParagraph, StyledH1, StyledH2, StyledPost } from '../../styledCom
 import articleMoankPicture from '../../assets/article-moank.png';
 import PortfolioExample from '../../assets/PortfolioExample.png';
 
-export default ({ match }) => (
+const MoankArticle = ({ match }) => (
   <Page match={match}>
     <StyledPost>
       <StyledH1>Improving conversion rate for FinTech startup</StyledH1>
@@ -26,4 +26,6 @@ export default ({ match }) => (
       <StyledParagraph>In the new version, the personal page is built up by a dashboard, something that is very trendy now. The dashboard both makes it easier for the user to get information at-a-glance, and also saves time as it got rid of the scrolling. I also added a feature telling the customer if they are on time or not with their payments. This feature both gave the information to the user that they requested, while also relieving the customer support.</StyledParagraph>
     </StyledPost>
   </Page>
-)
+);
+
+export default MoankArticle;

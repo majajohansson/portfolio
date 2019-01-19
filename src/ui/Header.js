@@ -18,7 +18,7 @@ const links = [
   }
 ];
 
-export default ({ match }) => (
+const Header = ({ match }) => (
   <StyledHeader>
     <StyledH1><StyledLink to="/">Maja Johansson</StyledLink></StyledH1>
     <StyledMenu>
@@ -33,3 +33,5 @@ export default ({ match }) => (
     </StyledMenu>
   </StyledHeader>
 );
+
+export default Header;

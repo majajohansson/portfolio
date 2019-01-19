@@ -5,7 +5,7 @@ import articleNewProductsPicture from '../assets/Masthead.png';
 import { Article, Page, Banner } from '../ui';
 
 
-export default ({ match }) => (
+const Home = ({ match }) => (
   <Page match={match}>
     <Banner />
     <Article
@@ -32,4 +32,6 @@ export default ({ match }) => (
     </Article>
 
   </Page>
-)
+);
+
+export default Home;

@@ -4,7 +4,7 @@ import { StyledBanner, StyledParagraph, StyledBannerContent } from '../styledCom
 import ArrowLink from './ArrowLink';
 import profilePicture from '../assets/maja.jpg';
 
-export default () => (
+const Banner = () => (
   <StyledBanner>
     <img src={profilePicture} />
     <StyledBannerContent>
@@ -15,3 +15,5 @@ export default () => (
     </StyledBannerContent>
   </StyledBanner>
 );
+
+export default Banner;

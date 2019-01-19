@@ -4,7 +4,7 @@ import { StyledParagraph, StyledH1, StyledH2, StyledPost } from '../../styledCom
 
 import articleProcessPicture from '../../assets/process.png';
 
-export default ({ match }) => (
+const MyProcessArticle = ({ match }) => (
   <Page match={match}>
     <StyledPost>
       <StyledH1>My UX design process</StyledH1>
@@ -20,3 +20,5 @@ export default ({ match }) => (
     </StyledPost>
   </Page>
 );
+
+export default MyProcessArticle;
