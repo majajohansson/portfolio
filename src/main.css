@@ -1,7 +1,7 @@
 body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 1.2rem;
-  line-height: 1.8rem;
+  line-height: 1.5;
 }
 
 body, html, #app {
@@ -27,15 +27,6 @@ body, html, #app {
   padding: 2rem;
   vertical-align: middle;
   text-align: justify;
-}
-
-.contact {
-  margin: 40px auto;
-  width: calc(100% - 6rem);
-}
-
-.contact__list__item {
-  margin: 10px 0;
 }
 
 .post__title {
@@ -77,10 +68,6 @@ body, html, #app {
     width: calc(100% - 8rem);
   }
 
-  .contact {
-    width: calc(100% - 8rem);
-  }
-
   .post__main-image, .post__image {
     width: 80%;
   }
@@ -93,10 +80,6 @@ body, html, #app {
 
   .profile__description {
     padding: 0;
-    width: 100%;
-  }
-
-  .contact {
     width: 100%;
   }
 

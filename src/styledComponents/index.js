@@ -4,6 +4,7 @@ import StyledArticleImage from './StyledArticleImage';
 import StyledArticleDescription from './StyledArticleDescription';
 import StyledBanner from './StyledBanner';
 import StyledBannerContent from './StyledBannerContent';
+import StyledContact from './StyledContact';
 import StyledFooter from './StyledFooter';
 import StyledH1 from './StyledH1';
 import StyledH2 from './StyledH2';
@@ -23,6 +24,7 @@ export {
   StyledArticleDescription,
   StyledBanner,
   StyledBannerContent,
+  StyledContact,
   StyledFooter,
   StyledH1,
   StyledH2,

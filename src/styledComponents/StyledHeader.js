@@ -4,9 +4,10 @@ import StyledH1 from './StyledH1';
 import StyledLink from './StyledLink';
 
 const StyledHeader = styled.header`
-  padding: 2.5rem 10%;
+  padding: 2rem 10%;
 
   ${StyledH1} {
+    margin: 0;
     display: inline-block;
     width: 50%;
 
