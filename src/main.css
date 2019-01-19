@@ -16,19 +16,6 @@ body, html, #app {
   position: relative;
 }
 
-.header__nav__item {
-  display: inline-block;
-  margin: 0 20px;
-}
-
-.header__nav__item--inactive a {
-  color: #000000;
-}
-
-.header__nav__item--active {
-  color: #adadad;
-}
-
 .content {
   width: 65rem;
   margin: auto;

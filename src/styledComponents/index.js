@@ -11,6 +11,7 @@ import StyledH3 from './StyledH3';
 import StyledHeader from './StyledHeader';
 import StyledLink from './StyledLink';
 import StyledMenu from './StyledMenu';
+import StyledMenuLink from './StyledMenuLink';
 import StyledParagraph from './StyledParagraph';
 
 export {
@@ -27,5 +28,6 @@ export {
   StyledHeader,
   StyledLink,
   StyledMenu,
+  StyledMenuLink,
   StyledParagraph,
 };

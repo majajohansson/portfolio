@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderLink from './HeaderLink';
+import MenuLink from './MenuLink';
 import {
   StyledHeader,
   StyledH1,
@@ -23,7 +23,7 @@ export default ({ match }) => (
     <StyledH1><StyledLink to="/">Maja Johansson</StyledLink></StyledH1>
     <StyledMenu>
       {links.map((link, index) => (
-        <HeaderLink
+        <MenuLink
           path={link.path}
           title={link.title}
           active={match.path === link.path}
