@@ -9,6 +9,7 @@ import {
   StyledLink,
   StyledParagraph,
 } from '../styledComponents';
+import ArrowLink from './ArrowLink';
 
 export default ({ picture, title, children, slug }) => (
   <StyledArticle>
@@ -19,7 +20,7 @@ export default ({ picture, title, children, slug }) => (
         {children}
       </StyledParagraph>
       <StyledParagraph>
-        <StyledLink to={`/article/${slug}`}>Read more<img src={arrow} /></StyledLink>
+        <ArrowLink to={`/article/${slug}`}>Read more</ArrowLink>
       </StyledParagraph>
     </StyledArticleDescription>
   </StyledArticle>

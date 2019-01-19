@@ -12,14 +12,6 @@ const StyledArticleDescription = styled.div`
     width: 90%;
   }
 
-  ${StyledLink} {
-    > img {
-      height: 10px;
-      display: inline-block;
-      margin-left: 15px;
-    }
-  }
-
   ${media.desktop`
     display: block;
     width: calc(100% - 3rem);

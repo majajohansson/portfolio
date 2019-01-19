@@ -76,35 +76,6 @@ a:hover {
   width: 100%;
 }
 
-.banner {
-  margin: 9% auto;
-  width: 80%;
-}
-
-.banner__profile-picture {
-  border-radius: 50%;
-  display: inline-block;
-  width: 15%;
-  vertical-align: middle;
-}
-
-.banner__text {
-  vertical-align: middle;
-  margin-left: 10%;
-  display: inline-block;
-  width: 75%;
-}
-
-.banner__text img {
-  height: 10px;
-  display: inline-block;
-  margin-left: 15px;
-}
-
-.banner__text a {
-  color: inherit;
-}
-
 .profile {
   display: flex;
   align-items: center;
@@ -201,10 +172,6 @@ a:hover {
     display: block;
     width: 100%;
     text-align: center;
-  }
-
-  .banner {
-    display: none;
   }
 
   .content {
