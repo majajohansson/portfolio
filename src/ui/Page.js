@@ -1,13 +1,16 @@
 import React from 'react';
+import { StyledPage, StyledPageContent } from '../styledComponents';
 import Header from './Header';
 import Footer from './Footer';
 
-export default ({ children, match }) => (
-  <div className="page">
+const Page = ({ children, match }) => (
+  <StyledPage>
     <Header match={match} />
-    <div className="content">
+    <StyledPageContent>
       {children}
-    </div>
+    </StyledPageContent>
     <Footer />
-  </div>
-)
+  </StyledPage>
+);
+
+export default Page;

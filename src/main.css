@@ -9,20 +9,6 @@ body, html, #app {
   margin: 0;
 }
 
-.page {
-  max-width: 1800px;
-  margin: auto;
-  min-height: 100%;
-  position: relative;
-}
-
-.content {
-  width: 65rem;
-  margin: auto;
-  margin-top: 7%;
-  padding-bottom: 120px;
-}
-
 .profile {
   display: flex;
   align-items: center;
@@ -73,10 +59,6 @@ body, html, #app {
 }
 
 @media (max-width: 65rem) {
-  .content {
-    width: 100%;
-  }
-
   .post__title, .post__header, .post__paragraph, .post__image {
     padding: 0 2rem;
   }
@@ -105,12 +87,6 @@ body, html, #app {
 }
 
 @media (max-width: 40rem) {
-  .content {
-    width: 90%;
-    margin: auto;
-    margin-top: 0;
-  }
-
   .post__title, .post__header, .post__paragraph, .post__image {
     padding: 0;
   }
