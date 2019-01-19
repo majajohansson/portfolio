@@ -16,6 +16,7 @@ import StyledMenuLink from './StyledMenuLink';
 import StyledPage from './StyledPage';
 import StyledPageContent from './StyledPageContent';
 import StyledParagraph from './StyledParagraph';
+import StyledPost from './StyledPost';
 import StyledProfile from './StyledProfile';
 import StyledProfileDescription from './StyledProfileDescription';
 
@@ -38,6 +39,7 @@ export {
   StyledPage,
   StyledPageContent,
   StyledParagraph,
+  StyledPost,
   StyledProfile,
   StyledProfileDescription,
 };
