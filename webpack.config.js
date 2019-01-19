@@ -1,16 +1,11 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = env => {
   const isDev = process.env.NODE_ENV !== 'production';
 
   const plugins = [
-    new MiniCssExtractPlugin({
-      filename: "[name].[hash].css",
-      chunkFilename: "[id].[hash].css"
-    }),
     new HtmlWebpackPlugin({
       inject: true,
       template: path.resolve(__dirname, 'src', 'index.html'),
@@ -37,7 +32,6 @@ module.exports = env => {
     entry: [
       'babel-polyfill',
       path.resolve(__dirname, 'src', 'index.js'),
-      path.resolve(__dirname, 'src', 'main.css'),
       path.resolve(__dirname, 'src', '404.html'),
     ],
 
@@ -50,13 +44,6 @@ module.exports = env => {
           options: {
             presets: ['env', 'react']
           }
-        },
-        {
-          test: /\.css$/,
-          use: [
-            MiniCssExtractPlugin.loader,
-            { loader: 'css-loader', options: { minimize: !isDev } },
-          ],
         },
         {
           test: /\.(jpe?g|png)/,

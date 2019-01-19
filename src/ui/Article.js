@@ -1,22 +1,29 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import arrow from '../assets/arrow.png';
+import {
+  StyledArticle,
+  StyledArticleImage,
+  StyledArticleDescription,
+  StyledH2,
+  StyledLink,
+  StyledParagraph,
+} from '../styledComponents';
+import ArrowLink from './ArrowLink';
 
-export default ({ picture, title, children, slug }) => (
-  <div className="article">
-    <div className="article__image">
-      <img src={picture} />
-    </div>
-    <div className="article__description">
-      <div className="article__description__header">
-        {title}
-      </div>
-      <div className="article__description__text">
+const Article = ({ picture, title, children, slug }) => (
+  <StyledArticle>
+    <StyledArticleImage src={picture} />
+    <StyledArticleDescription>
+      <StyledH2>{title}</StyledH2>
+      <StyledParagraph>
         {children}
-      </div>
-      <div className="article__description__link">
-        <Link to={`/article/${slug}`}>Read more<img src={arrow} /></Link>
-      </div>
-    </div>
-  </div>
+      </StyledParagraph>
+      <StyledParagraph>
+        <ArrowLink to={`/article/${slug}`}>Read more</ArrowLink>
+      </StyledParagraph>
+    </StyledArticleDescription>
+  </StyledArticle>
 );
+
+export default Article;

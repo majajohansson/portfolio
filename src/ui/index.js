@@ -2,7 +2,7 @@ import Article from './Article';
 import Banner from './Banner';
 import Footer from './Footer';
 import Header from './Header';
-import HeaderLink from './HeaderLink';
+import MenuLink from './MenuLink';
 import Page from './Page';
 
 export {
@@ -10,6 +10,6 @@ export {
   Banner,
   Footer,
   Header,
-  HeaderLink,
+  MenuLink,
   Page,
 }
