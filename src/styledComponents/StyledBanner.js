@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { media } from './styles';
 import StyledParagraph from './StyledParagraph';
 
-const StyledArticle = styled.div`
+const StyledBanner = styled.div`
   margin: 9% auto;
   width: 80%;
 
@@ -18,4 +18,4 @@ const StyledArticle = styled.div`
   `}
 `;
 
-export default StyledArticle;
+export default StyledBanner;

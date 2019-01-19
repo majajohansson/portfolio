@@ -1,6 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import HeaderLink from './HeaderLink';
+import {
+  StyledHeader,
+  StyledH1,
+  StyledLink,
+  StyledMenu,
+} from '../styledComponents';
 
 const links = [
   {
@@ -14,9 +19,9 @@ const links = [
 ];
 
 export default ({ match }) => (
-  <div className="header">
-    <div className="header__title"><Link to="/">Maja Johansson</Link></div>
-    <div className="header__nav">
+  <StyledHeader>
+    <StyledH1><StyledLink to="/">Maja Johansson</StyledLink></StyledH1>
+    <StyledMenu>
       {links.map((link, index) => (
         <HeaderLink
           path={link.path}
@@ -25,6 +30,6 @@ export default ({ match }) => (
           key={index}
         />
       ))}
-    </div>
-  </div>
+    </StyledMenu>
+  </StyledHeader>
 );
