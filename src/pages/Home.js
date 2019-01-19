@@ -8,13 +8,13 @@ import { Article, Page, Banner } from '../ui';
 export default ({ match }) => (
   <Page match={match}>
     <Banner />
-      <Article
-        picture={articleNewProductsPicture}
-        title="Releasing new products"
-        slug="newproducts"
-      >
+    <Article
+      picture={articleNewProductsPicture}
+      title="Releasing new products"
+      slug="newproducts"
+    >
       Releasing new products is a project which started in July 2018 and is still ongoing. In this project I am the UX/UI designer and responsible for all aspects of product design...
-      </Article>
+    </Article>
     <Article
       picture={articleMoankPicture}
       title="Improving conversion rate for FinTech startup"
@@ -28,7 +28,7 @@ export default ({ match }) => (
       title="My design process"
       slug="myprocess"
     >
-    Everyone has different processes to complete a task. I created a schema displaying the process that I am using for the moment when working, and it works really well for me.
+      Everyone has different processes to complete a task. I created a schema displaying the process that I am using for the moment when working, and it works really well for me.
     </Article>
 
   </Page>
