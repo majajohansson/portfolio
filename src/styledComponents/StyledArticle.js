@@ -2,26 +2,25 @@ import styled from 'styled-components';
 import { media } from './styles';
 
 const StyledArticle = styled.div`
-  background-color: #f2f2f2;
+  background-color: #f6f6f6;
   display: flex;
-  align-items: stretch;
-  justify-content: space-between;
-  flex-direction: row-reverse;
-  margin: 3rem 0;
-  height: 20rem;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 2rem;
+  height: 40rem;
+  max-width: 30rem;
+  width: 100%;
 
-  ${media.desktop`
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    padding: 2rem;
-    width: 35rem;
-    margin: 3rem auto;
-  `}
+  &:hover {
+    box-shadow: 0 0.2rem 1.5rem #57575769;
+    transform: translateY(-0.2rem);
+    transition-property: box-shadow, transform;
+    transition-duration: 0.3s;
+  }
 
   ${media.phone`
-    width: calc(100% - 4rem);
+    height: auto;
+    margin: 2rem 0;
   `}
 `;
 

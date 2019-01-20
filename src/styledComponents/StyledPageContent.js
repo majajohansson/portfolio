@@ -4,7 +4,7 @@ import { footerTotalHeight } from './StyledFooter';
 import { media } from './styles';
 
 const StyledPageContent = styled.div`
-  max-width: 65rem;
+  max-width: 70rem;
   margin: auto;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -16,9 +16,9 @@ const StyledPageContent = styled.div`
   `}
 
   ${media.phone`
-    padding-left: 1rem;
-    padding-right: 1rem;
-    width: calc(100% - 2rem);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: calc(100% - 3rem);
   `}
 `;
 

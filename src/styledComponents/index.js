@@ -2,6 +2,7 @@ import StyledArrowLink from './StyledArrowLink';
 import StyledArticle from './StyledArticle';
 import StyledArticleImage from './StyledArticleImage';
 import StyledArticleDescription from './StyledArticleDescription';
+import StyledArticleList from './StyledArticleList';
 import StyledBanner from './StyledBanner';
 import StyledBannerContent from './StyledBannerContent';
 import StyledContact from './StyledContact';
@@ -25,6 +26,7 @@ export {
   StyledArticle,
   StyledArticleImage,
   StyledArticleDescription,
+  StyledArticleList,
   StyledBanner,
   StyledBannerContent,
   StyledContact,
