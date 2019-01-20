@@ -1,20 +1,24 @@
 import styled from 'styled-components';
+import { headerTotalHeight } from './StyledHeader';
+import { footerTotalHeight } from './StyledFooter';
 import { media } from './styles';
 
 const StyledPageContent = styled.div`
-  width: 65rem;
+  max-width: 65rem;
   margin: auto;
-  margin-top: 7%;
-  padding-bottom: 120px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: ${headerTotalHeight}rem;
+  padding-bottom: ${footerTotalHeight}rem;
 
   ${media.desktop`
-    width: 100%;
+    width: calc(100% - 4rem);
   `}
 
   ${media.phone`
-    width: 90%;
-    margin: auto;
-    margin-top: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: calc(100% - 2rem);
   `}
 `;
 
