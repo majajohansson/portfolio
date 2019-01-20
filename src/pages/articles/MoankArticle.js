@@ -1,17 +1,29 @@
 import React from 'react';
 import { Page } from '../../ui';
-import { StyledParagraph, StyledH1, StyledH2, StyledPost } from '../../styledComponents';
+import {
+  StyledParagraph,
+  StyledH1,
+  StyledH2,
+  StyledPost,
+  StyledSummary,
+  StyledSummaryPane,
+} from '../../styledComponents';
 
 import articleMoankPicture from '../../assets/article-moank.png';
 import PortfolioExample from '../../assets/PortfolioExample.png';
 
 const MoankArticle = ({ match }) => (
   <Page match={match}>
+    <StyledSummary>
+      <StyledSummaryPane>
+        <StyledH1>Improving conversion rate for FinTech startup</StyledH1>
+        <StyledParagraph>Since the beginning of 2018 I have been working as a UI/UX designer at Moank, a Fintech startup in Stockholm specializing in consumer loans. My role has involved user research, data analysis as well as design, prototyping and user testing.</StyledParagraph>
+      </StyledSummaryPane>
+      <StyledSummaryPane>
+        <img src={articleMoankPicture} />
+      </StyledSummaryPane>
+    </StyledSummary>
     <StyledPost>
-      <StyledH1>Improving conversion rate for FinTech startup</StyledH1>
-      <img src={articleMoankPicture} />
-      <StyledParagraph>Since the beginning of 2018 I have been working as a UI/UX designer at Moank, a Fintech startup in Stockholm specializing in consumer loans. My role has involved user research, data analysis as well as design, prototyping and user testing.</StyledParagraph>
-
       <StyledH2>Understanding the problem</StyledH2>
       <StyledParagraph>When I first arrived to Moank I realized based on data analysis and interviews/user testing, that the user experience could be improved. I decided to do a revamp of the website.</StyledParagraph>
       <StyledParagraph>One major issue with the website was the high drop off rate. Several customers who started the sign-up flow dropped off more and more further in the process. The sign-up design was also inconsistent with the rest of the website.</StyledParagraph>

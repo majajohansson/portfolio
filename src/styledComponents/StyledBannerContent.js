@@ -1,10 +1,12 @@
 import styled from 'styled-components';
+import { media } from './styles';
 
 const StyledBannerContent = styled.div`
-  vertical-align: middle;
-  margin-left: 10%;
-  display: inline-block;
-  width: 75%;
+  margin-left: 2rem;
+
+  ${media.phone`
+    margin-left: 0;
+  `}
 `;
 
 export default StyledBannerContent;

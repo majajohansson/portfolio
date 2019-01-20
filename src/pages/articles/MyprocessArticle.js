@@ -1,16 +1,28 @@
 import React from 'react';
 import { Page } from '../../ui';
-import { StyledParagraph, StyledH1, StyledH2, StyledPost } from '../../styledComponents';
+import {
+  StyledParagraph,
+  StyledH1,
+  StyledH2,
+  StyledPost,
+  StyledSummary,
+  StyledSummaryPane,
+} from '../../styledComponents';
 
 import articleProcessPicture from '../../assets/process.png';
 
 const MyProcessArticle = ({ match }) => (
   <Page match={match}>
+    <StyledSummary>
+      <StyledSummaryPane>
+        <StyledH1>My UX design process</StyledH1>
+        <StyledParagraph>Everyone has different processes to complete a task. I created a schema displaying the process that I am using for the moment when working, and it works really well for me. However, I always like to discover new ways to tackle problems.<br/>Following, is the process I went through during a project at Moank, a FinTech company based in Stockholm.</StyledParagraph>
+      </StyledSummaryPane>
+      <StyledSummaryPane>
+        <img src={articleProcessPicture} />
+      </StyledSummaryPane>
+    </StyledSummary>
     <StyledPost>
-      <StyledH1>My UX design process</StyledH1>
-      <img src={articleProcessPicture} />
-      <StyledParagraph>Everyone has different processes to complete a task. I created a schema displaying the process that I am using for the moment when working, and it works really well for me. However, I always like to discover new ways to tackle problems.<br/>Following, is the process I went through during a project at Moank, a FinTech company based in Stockholm.</StyledParagraph>
-
       <StyledH2>The start</StyledH2>
       <StyledParagraph>I always start a process drawing sketches with pen and paper. I do not like to dive into Sketch directly as things often change and I do not want to lose time re-doing my wireframes all the time. In this project there was no existing product to do user testing with in this stage (to reveal problems), which is otherwise what I would have done. Instead, a lot of time was spent on analyzing competitors. I wanted to see the market as well as get inspiration and ideas.</StyledParagraph>
 

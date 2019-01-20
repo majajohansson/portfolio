@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import StyledH1 from './StyledH1';
 import StyledH2 from './StyledH2';
-import { media } from './styles';
 
 const StyledPost = styled.div`
   ${StyledH1} {
@@ -14,23 +13,10 @@ const StyledPost = styled.div`
 
   img {
     display: block;
-    width: 40rem;
+    max-width: 30rem;
+    width: 80%;
     margin: 3rem auto;
   }
-
-  ${media.desktop`
-    padding: 0 2rem;
-  `}
-
-  ${media.tablet`
-    img {
-      width: 80%;
-    }
-  `}
-
-  ${media.phone`
-    padding: 0;
-  `}
 `;
 
 export default StyledPost;

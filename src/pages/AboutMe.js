@@ -14,7 +14,7 @@ const AboutMe = ({ match }) => (
     <StyledProfile>
       <img src={profilePicture} />
       <StyledProfileDescription>
-        <StyledParagraph>My name is Maja. I’m a product design graduate based in Stockholm looking for a UI/UX designer position.</StyledParagraph>
+        <StyledParagraph>My name is Maja. I’m a product design graduate, currently working as a UI/UX designer at a FinTech Startup in Stockholm.</StyledParagraph>
         <StyledParagraph>Driven by problem solving, I love to design simple and beautiful digital experiences that create real value for end users.</StyledParagraph>
         <StyledParagraph>I like to work closely to customers and I strongly believe that a good design can not be achieved without them. User feedback help me reflect on my work to improve it and create a better user experience.</StyledParagraph>
       </StyledProfileDescription>
@@ -23,7 +23,7 @@ const AboutMe = ({ match }) => (
       <StyledParagraph>Contact:</StyledParagraph>
       <ul>
         <li>Linkedin: <StyledLink as="a" href="https://www.linkedin.com/in/maja-johansson-998a20135/" target="_blank">Maja Johansson</StyledLink></li>
-        <li>Email: <StyledLink as="a" href="mailto:maja.johansson1993@gmail.com">maja.johansson1993@gmail.com</StyledLink></li>
+        <li>Email: <StyledLink as="a" href="mailto:contact@johanssonmaja.com">contact@johanssonmaja.com</StyledLink></li>
       </ul>
     </StyledContact>
   </Page>

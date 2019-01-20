@@ -2,6 +2,7 @@ import StyledArrowLink from './StyledArrowLink';
 import StyledArticle from './StyledArticle';
 import StyledArticleImage from './StyledArticleImage';
 import StyledArticleDescription from './StyledArticleDescription';
+import StyledArticleList from './StyledArticleList';
 import StyledBanner from './StyledBanner';
 import StyledBannerContent from './StyledBannerContent';
 import StyledContact from './StyledContact';
@@ -19,12 +20,15 @@ import StyledParagraph from './StyledParagraph';
 import StyledPost from './StyledPost';
 import StyledProfile from './StyledProfile';
 import StyledProfileDescription from './StyledProfileDescription';
+import StyledSummary from './StyledSummary';
+import StyledSummaryPane from './StyledSummaryPane';
 
 export {
   StyledArrowLink,
   StyledArticle,
   StyledArticleImage,
   StyledArticleDescription,
+  StyledArticleList,
   StyledBanner,
   StyledBannerContent,
   StyledContact,
@@ -42,4 +46,6 @@ export {
   StyledPost,
   StyledProfile,
   StyledProfileDescription,
+  StyledSummary,
+  StyledSummaryPane,
 };

@@ -6,6 +6,7 @@ import {
   StyledLink,
   StyledMenu,
 } from '../styledComponents';
+import scrollPercentAware from '../hoc/scrollPercentAware';
 
 const links = [
   {
@@ -18,8 +19,8 @@ const links = [
   }
 ];
 
-const Header = ({ match }) => (
-  <StyledHeader>
+const Header = ({ match, scrollPercent }) => (
+  <StyledHeader scrollPercent={scrollPercent}>
     <StyledH1><StyledLink to="/">Maja Johansson</StyledLink></StyledH1>
     <StyledMenu>
       {links.map((link, index) => (
@@ -34,4 +35,4 @@ const Header = ({ match }) => (
   </StyledHeader>
 );
 
-export default Header;
+export default scrollPercentAware(Header);

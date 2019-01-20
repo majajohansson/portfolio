@@ -1,21 +1,26 @@
 import styled from 'styled-components';
+import { headerTotalHeight } from './StyledHeader';
+import { footerTotalHeight } from './StyledFooter';
 import { media } from './styles';
 
 const StyledPageContent = styled.div`
-  width: 65rem;
-  margin: auto;
-  margin-top: 7%;
-  padding-bottom: 120px;
+  width: 100%;
+  padding-top: ${headerTotalHeight}rem;
+  padding-bottom: ${footerTotalHeight}rem;
 
-  ${media.desktop`
-    width: 100%;
-  `}
+  > * {
+    width: 70rem;
+    padding-left: calc((100% - 70rem) / 2);
+    padding-right: calc((100% - 70rem) / 2);
+  }
 
-  ${media.phone`
-    width: 90%;
-    margin: auto;
-    margin-top: 0;
-  `}
+  @media (max-width: 74rem) {
+    > * {
+      width: calc(100% - 4rem);
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
 `;
 
 export default StyledPageContent;

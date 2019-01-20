@@ -5,20 +5,19 @@ const StyledProfile = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: 2.5rem auto;
 
   img {
-    width: 30%;
+    width: 70vw;
+    height: 70vw;
+    max-width: 15rem;
+    max-height: 15rem;
     border-radius: 50%;
-    vertical-align: middle;
     margin: 2rem;
   }
 
   ${media.tablet`
     flex-direction: column;
-
-    img {
-      width: 40%;
-    }
   `}
 `;
 
