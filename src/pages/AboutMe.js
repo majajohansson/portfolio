@@ -23,7 +23,7 @@ const AboutMe = ({ match }) => (
       <StyledParagraph>Contact:</StyledParagraph>
       <ul>
         <li>Linkedin: <StyledLink as="a" href="https://www.linkedin.com/in/maja-johansson-998a20135/" target="_blank">Maja Johansson</StyledLink></li>
-        <li>Email: <StyledLink as="a" href="mailto:maja.johansson1993@gmail.com">maja.johansson1993@gmail.com</StyledLink></li>
+        <li>Email: <StyledLink as="a" href="mailto:contact@johanssonmaja.com">contact@johanssonmaja.com</StyledLink></li>
       </ul>
     </StyledContact>
   </Page>
