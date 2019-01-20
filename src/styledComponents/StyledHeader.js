@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
-import { media } from './styles';
+import { rgba } from 'polished';
+import { media, colors, shades } from './styles';
 import StyledH1 from './StyledH1';
 import StyledLink from './StyledLink';
 
@@ -15,9 +16,9 @@ const StyledHeader = styled.header`
   top: 0;
   left: 0;
   right: 0;
-  background-color: #ffffff;
+  background-color: ${colors.light};
   z-index: 1;
-  border-bottom: 0.2rem solid #E5E5E5;
+  border-bottom: 0.2rem solid ${rgba(colors.dark, shades.light)};
 
   &::after {
     content: "";
@@ -28,7 +29,7 @@ const StyledHeader = styled.header`
     transition-duration: 0.2s;
     width: ${props => css`${props.scrollPercent * 100}%`};
     height: 0.2rem;
-    background-color: #000000;
+    background-color: ${colors.dark};
   }
 
   ${StyledH1} {

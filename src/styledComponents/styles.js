@@ -6,6 +6,18 @@ export const sizes = {
   phone: 640,
 };
 
+export const shades = {
+  lighter: 0.1,
+  light: 0.2,
+  dark: 0.3,
+  darker: 0.4,
+};
+
+export const colors = {
+  dark: '#181818',
+  light: '#ffffff',
+};
+
 export const media = Object.keys(sizes).reduce((acc, label) => {
   acc[label] = (...args) => css`
     @media (max-width: ${sizes[label] / 16}em) {

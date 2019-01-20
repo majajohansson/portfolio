@@ -1,8 +1,9 @@
 import styled from 'styled-components';
-import { media } from './styles';
+import { rgba } from 'polished';
+import { media, colors, shades } from './styles';
 
 const StyledSummary = styled.div`
-  background-color: #f6f6f6;
+  background-color: ${rgba(colors.dark, shades.lighter)};
   display: flex;
   justify-content: space-between;
   padding-top: 2.5rem;

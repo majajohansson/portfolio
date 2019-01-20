@@ -1,8 +1,9 @@
 import styled from 'styled-components';
-import { media } from './styles';
+import { rgba } from 'polished';
+import { media, colors, shades } from './styles';
 
 const StyledArticle = styled.div`
-  background-color: #f6f6f6;
+  background-color: ${rgba(colors.dark, shades.lighter)};
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -12,7 +13,7 @@ const StyledArticle = styled.div`
   width: 100%;
 
   &:hover {
-    box-shadow: 0 0.2rem 1.5rem #57575769;
+    box-shadow: 0 0.2rem 1.5rem ${rgba(colors.dark, shades.darker)};
     transform: translateY(-0.2rem);
     transition-property: box-shadow, transform;
     transition-duration: 0.3s;
