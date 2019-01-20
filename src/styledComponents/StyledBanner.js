@@ -3,18 +3,21 @@ import { media } from './styles';
 import StyledParagraph from './StyledParagraph';
 
 const StyledBanner = styled.div`
-  margin: 9% auto;
-  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem auto;
+  width: 70%;
 
   > img {
     border-radius: 50%;
-    display: inline-block;
-    width: 15%;
-    vertical-align: middle;
+    width: 6rem;
   }
 
   ${media.phone`
-    display: none;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
   `}
 `;
 
