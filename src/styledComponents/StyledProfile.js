@@ -8,17 +8,16 @@ const StyledProfile = styled.div`
   margin: 2.5rem auto;
 
   img {
-    width: 15rem;
+    width: 70vw;
+    height: 70vw;
+    max-width: 15rem;
+    max-height: 15rem;
     border-radius: 50%;
     margin: 2rem;
   }
 
   ${media.tablet`
     flex-direction: column;
-
-    img {
-      width: 40%;
-    }
   `}
 `;
 

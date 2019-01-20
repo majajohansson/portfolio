@@ -33,7 +33,6 @@ const StyledHeader = styled.header`
 
   ${StyledH1} {
     margin: 0;
-    display: inline-block;
     width: 50%;
 
     ${StyledLink} {

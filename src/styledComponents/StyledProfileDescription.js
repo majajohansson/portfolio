@@ -6,12 +6,7 @@ const StyledProfileDescription = styled.div`
   text-align: justify;
 
   ${media.tablet`
-    width: calc(100% - 8rem);
-  `}
-
-  ${media.phone`
     padding: 0;
-    width: 100%;
   `}
 `;
 
