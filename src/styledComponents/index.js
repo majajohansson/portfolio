@@ -20,6 +20,8 @@ import StyledParagraph from './StyledParagraph';
 import StyledPost from './StyledPost';
 import StyledProfile from './StyledProfile';
 import StyledProfileDescription from './StyledProfileDescription';
+import StyledSummary from './StyledSummary';
+import StyledSummaryPane from './StyledSummaryPane';
 
 export {
   StyledArrowLink,
@@ -44,4 +46,6 @@ export {
   StyledPost,
   StyledProfile,
   StyledProfileDescription,
+  StyledSummary,
+  StyledSummaryPane,
 };
