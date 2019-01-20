@@ -7,7 +7,7 @@ const StyledBanner = styled.div`
   align-items: center;
   justify-content: center;
   margin: 3rem auto;
-  width: 70%;
+  max-width: 50rem;
 
   > img {
     border-radius: 50%;
@@ -16,7 +16,7 @@ const StyledBanner = styled.div`
 
   ${media.phone`
     flex-wrap: wrap;
-    width: 100%;
+    max-width: 100%;
     text-align: center;
   `}
 `;
