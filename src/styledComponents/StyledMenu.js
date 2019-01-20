@@ -7,10 +7,7 @@ const StyledMenu = styled.nav`
   text-align: right;
 
   ${media.phone`
-    margin-top: 1.25rem;
-    display: block;
-    width: 100%;
-    text-align: center;
+    display: none;
   `}
 `;
 

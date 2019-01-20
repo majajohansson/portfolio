@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { media } from './styles';
 import StyledH1 from './StyledH1';
 import StyledLink from './StyledLink';
@@ -18,6 +18,18 @@ const StyledHeader = styled.header`
   background-color: #ffffff;
   z-index: 1;
   border-bottom: 0.2rem solid #E5E5E5;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -0.2rem;
+    left: 0;
+    transition-property: width;
+    transition-duration: 0.2s;
+    width: ${props => css`${props.scrollPercent * 100}%`};
+    height: 0.2rem;
+    background-color: #000000;
+  }
 
   ${StyledH1} {
     margin: 0;
