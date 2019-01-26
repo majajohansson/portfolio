@@ -6,6 +6,7 @@ import StyledLink from './StyledLink';
 
 export const headerTotalHeight = 6;
 const headerVerticalPadding = 2;
+const progressBarHeight = 0.25;
 
 const StyledHeader = styled.header`
   padding: ${headerVerticalPadding}rem 10%;
@@ -18,18 +19,18 @@ const StyledHeader = styled.header`
   right: 0;
   background-color: ${colors.light};
   z-index: 1;
-  border-bottom: 0.2rem solid ${rgba(colors.dark, shades.light)};
+  border-bottom: ${progressBarHeight}rem solid ${colors.secondary};
 
   &::after {
     content: "";
     position: absolute;
-    bottom: -0.2rem;
+    bottom: -${progressBarHeight}rem;
     left: 0;
     transition-property: width;
     transition-duration: 0.2s;
     width: ${props => css`${props.scrollPercent * 100}%`};
-    height: 0.2rem;
-    background-color: ${colors.dark};
+    height: ${progressBarHeight}rem;
+    background-color: ${rgba(colors.dark, shades.darkest)};
   }
 
   ${StyledH1} {

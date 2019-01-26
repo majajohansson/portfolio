@@ -11,9 +11,12 @@ export const shades = {
   light: 0.2,
   dark: 0.3,
   darker: 0.4,
+  darkest: 0.6,
 };
 
 export const colors = {
+  primary: '#f6f6f6',
+  secondary: '#dfdfdf',
   dark: '#181818',
   light: '#ffffff',
 };
