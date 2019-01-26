@@ -3,7 +3,7 @@ import { rgba } from 'polished';
 import { media, colors, shades } from './styles';
 
 const StyledArticle = styled.div`
-  background-color: ${rgba(colors.dark, shades.lighter)};
+  background-color: ${colors.primary};
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
