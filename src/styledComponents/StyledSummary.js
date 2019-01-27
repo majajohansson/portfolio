@@ -5,8 +5,8 @@ const StyledSummary = styled.div`
   background-color: ${colors.primary};
   display: flex;
   justify-content: space-between;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 
   & > div:not(:last-child) {
     margin-right: 2rem;
@@ -29,6 +29,8 @@ const StyledSummary = styled.div`
 
   ${media.tablet`
     flex-wrap: wrap;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 
     > div {
       width: 100%;
