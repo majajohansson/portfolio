@@ -46,6 +46,16 @@ module.exports = env => {
           }
         },
         {
+          test: /\.svg$/,
+          use: {
+            loader: 'svg-url-loader',
+            options: {
+              noquotes: true,
+              stripdeclarations: true,
+            },
+          },
+        },
+        {
           test: /\.(jpe?g|png)/,
           use: {
             loader: 'file-loader',
