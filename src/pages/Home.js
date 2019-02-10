@@ -1,6 +1,6 @@
 import React from 'react';
 import articleMoankPicture from '../assets/article-moank.png';
-import articleProcessPicture from '../assets/process.png';
+import articleProcessPicture from '../assets/myProcess.svg';
 import articleQRCodePicture from '../assets/QRcode-picture.svg';
 import articleNewProductsPicture from '../assets/accountCreditHero.svg';
 import articleViualDesignPicture from '../assets/howItWorks.svg';

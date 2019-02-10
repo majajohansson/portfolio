@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1000px" height="680px" viewBox="0 0 1000 680" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>How it works Copy</title>
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>QR-code</title>
     <desc>Created with Sketch.</desc>
-    <g id="How-it-works-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect fill="#FFFFFF" x="0" y="0" width="1000" height="680"></rect>
-        <rect id="Rectangle" stroke="#1E1E1E" stroke-width="30" fill-rule="nonzero" x="185" y="25" width="630" height="630"></rect>
-        <path d="M119.549784,340.5 L880.450216,340.5" id="Line" stroke="#FFFFFF" stroke-width="220" stroke-linecap="square" fill-rule="nonzero"></path>
-        <path d="M119.549784,340.5 L880.450216,340.5" id="Line-Copy" stroke="#FFFFFF" stroke-width="220" stroke-linecap="square" fill-rule="nonzero" transform="translate(500.000000, 340.500000) rotate(90.000000) translate(-500.000000, -340.500000) "></path>
-        <text id="QR-code" font-family="Helvetica" font-size="132" font-weight="normal" fill="#1E1E1E">
-            <tspan x="236.40332" y="375">QR-code </tspan>
+    <g id="QR-code" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#BEBEE5" x="0" y="0" width="1000" height="680"></rect>
+        <rect id="Rectangle" stroke="#000000" stroke-width="30" x="265" y="105" width="470" height="470"></rect>
+        <path d="M237,340.5 L764,340.5" id="Line-4" stroke="#BEBEE5" stroke-width="170" stroke-linecap="square"></path>
+        <path d="M207.5,340.5 L792.5,340.5" id="Line-4-Copy" stroke="#BEBEE5" stroke-width="170" stroke-linecap="square" transform="translate(500.000000, 340.500000) rotate(90.000000) translate(-500.000000, -340.500000) "></path>
+        <text font-family="ArialMT, Arial" font-size="90" font-weight="normal" fill="#000000">
+            <tspan x="319.934082" y="358">QR-code</tspan>
         </text>
     </g>
 </svg>

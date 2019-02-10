@@ -31,6 +31,7 @@ const VisualDesignArticle = ({ match }) => (
 
       <img src={accountCreditHero} />
       <img src={debtConsolidationLoan} />
+      <img src={howItWorks} />
       <img src={aboutMoank} />
     </StyledPost>
   </Page>
