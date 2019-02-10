@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="680px" viewBox="0 0 1000 680" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>howItWorks</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="75" cy="75" r="75"></circle>
+        <circle id="path-3" cx="75" cy="75" r="75"></circle>
+        <circle id="path-5" cx="75" cy="75" r="75"></circle>
+    </defs>
+    <g id="howItWorks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F9FDFE" x="0" y="0" width="1000" height="680"></rect>
+        <g id="How_it_works_1" transform="translate(59.000000, 249.000000)">
+            <g id="Rectangle-+-Rectangle-Mask" stroke-width="1" fill-rule="evenodd">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8E9EE" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-2)" x="57" y="82" width="119" height="42" rx="21"></rect>
+                <rect id="Rectangle" stroke="#6B4EC0" stroke-width="16" fill-rule="nonzero" mask="url(#mask-2)" x="39" y="63" width="134" height="102" rx="13"></rect>
+            </g>
+            <text id="www." font-family="LucidaGrande-Bold, Lucida Grande" font-size="20" font-weight="bold" fill="#6C4FC1">
+                <tspan x="77.6455078" y="108">www.</tspan>
+            </text>
+            <polygon id="Path-6" fill="#3891AD" fill-rule="evenodd" points="107.722315 126.495297 103 130.702231 103 112 116.483578 124.703977 109.998552 125.46452 113.42315 133.367978 111.023999 134.538823"></polygon>
+        </g>
+        <g id="How_it_works_2" transform="translate(299.000000, 253.000000)">
+            <g id="Rectangle" stroke-width="1" fill-rule="evenodd">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="Mask" fill="#D8E9EE" fill-rule="nonzero" xlink:href="#path-3"></use>
+                <rect fill="#3891AD" fill-rule="nonzero" mask="url(#mask-4)" x="35" y="89" width="80" height="65" rx="4"></rect>
+            </g>
+            <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="24" y="29" width="24" height="32" rx="2"></rect>
+            <rect id="Rectangle-Copy" fill="#FFFFFF" fill-rule="nonzero" x="63" y="16" width="24" height="32" rx="2"></rect>
+            <rect id="Rectangle-Copy-2" fill="#FFFFFF" fill-rule="nonzero" x="102" y="29" width="24" height="32" rx="2"></rect>
+            <path id="Path-3" d="M75,67.5 L75,52 L76,52 L76,67.5 L80,67.5 L75.5,76.5 L71,67.5 L75,67.5 Z" fill="#6B4EC0" fill-rule="nonzero"></path>
+            <path id="Path-3-Copy" d="M40.9302642,72.5865639 L35.9782069,64.767526 L36.823026,64.232474 L41.7750833,72.0515118 L45.1543596,69.9113035 L46.1681425,79.9224095 L37.5509879,74.7267722 L40.9302642,72.5865639 Z" fill="#6B4EC0" fill-rule="nonzero"></path>
+            <path id="Path-3-Copy-2" d="M109.930264,72.5865639 L104.978207,64.767526 L105.823026,64.232474 L110.775083,72.0515118 L114.15436,69.9113035 L115.168142,79.9224095 L106.550988,74.7267722 L109.930264,72.5865639 Z" fill="#6B4EC0" fill-rule="nonzero"></path>
+            <rect id="Rectangle-Copy-6" fill="#FFFFFF" fill-rule="nonzero" x="50" y="109" width="50" height="8"></rect>
+            <rect id="Rectangle-Copy-5" fill="#FFFFFF" fill-rule="nonzero" x="50" y="128" width="50" height="8"></rect>
+        </g>
+        <g id="How_it_works_3" transform="translate(542.000000, 253.000000)">
+            <g id="Rectangle" stroke-width="1" fill-rule="evenodd">
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <use id="Mask" fill="#D8E9EE" fill-rule="nonzero" xlink:href="#path-5"></use>
+                <rect fill="#6B4EC0" fill-rule="nonzero" mask="url(#mask-6)" x="35" y="-10" width="80" height="103" rx="4"></rect>
+            </g>
+            <rect id="Rectangle-Copy-3" fill="#FFFFFF" fill-rule="nonzero" x="50" y="19" width="50" height="8"></rect>
+            <rect id="Rectangle-Copy-4" fill="#FFFFFF" fill-rule="nonzero" x="50" y="38" width="50" height="8"></rect>
+            <path d="M55.3110975,86 C56.2679099,85.6752254 57.1452176,85.1661851 57.9471842,84.513199 C64.5301811,79.1531176 66.0366452,64.0938766 64.7693998,61.6362645 C63.3477735,58.8792565 58.6276496,59.3731827 54.4473039,64.9141899 C50.2669582,70.4551972 49.4528292,78.4534622 54.4473039,79.6941689 C59.4417786,80.9348757 62.1952548,78.8468011 64.7693998,76.6027836 C67.3435448,74.3587661 68.7311753,70.524876 71.5165799,70.1664564 C74.3019845,69.8080368 74.4019791,76.6027836 79.0858189,76.6027836 C83.7696586,76.6027836 84.4141475,72.2660857 89.1977024,72.0275165 C92.386739,71.8684704 95.9875048,72.4868768 100,73.8827359" id="Path-5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill-rule="nonzero"></path>
+        </g>
+        <g id="How_it_works_between_icons" transform="translate(247.000000, 307.000000)" fill-rule="nonzero" stroke="#B5B5B5" stroke-linecap="round" stroke-width="3">
+            <polyline id="Path-2" points="0 0 17 21.9767442 0 42"></polyline>
+        </g>
+        <g id="How_it_works_between_icons" transform="translate(484.000000, 307.000000)" fill-rule="nonzero" stroke="#B5B5B5" stroke-linecap="round" stroke-width="3">
+            <polyline id="Path-2" points="0 0 17 21.9767442 0 42"></polyline>
+        </g>
+        <g id="How_it_works_between_icons" transform="translate(730.000000, 307.000000)" fill-rule="nonzero" stroke="#B5B5B5" stroke-linecap="round" stroke-width="3">
+            <polyline id="Path-2" points="0 0 17 21.9767442 0 42"></polyline>
+        </g>
+        <text id="Lorem-ipsum" font-family="Helvetica" font-size="20" font-weight="normal" fill="#1A203E" fill-opacity="0.8">
+            <tspan x="65.7021484" y="461">Lorem ipsum</tspan>
+        </text>
+        <text id="Lorem-ipsum" font-family="Helvetica" font-size="20" font-weight="normal" fill="#1A203E" fill-opacity="0.8">
+            <tspan x="318.702148" y="465">Lorem ipsum</tspan>
+        </text>
+        <text id="Lorem-ipsum" font-family="Helvetica" font-size="20" font-weight="normal" fill="#1A203E" fill-opacity="0.8">
+            <tspan x="561.202148" y="465">Lorem ipsum</tspan>
+        </text>
+        <g id="How_it_works_4" transform="translate(790.000000, 253.000000)" fill-rule="nonzero">
+            <circle id="Oval-Copy-3" fill="#D8E9EE" cx="75" cy="75" r="75"></circle>
+            <circle id="Oval-Copy-5" fill="#3891AD" cx="75" cy="75" r="44"></circle>
+            <path d="M75,119 C99.300529,119 119,99.3004789 119,75 C119,63 114.341493,52.3760112 105.024479,43.1280337 L79.9026584,73.9396983 L47.9924976,110.01339 C56.639437,116.004463 65.6419378,119 75,119 Z" id="Oval-Copy-9"></path>
+            <polyline id="Path-4" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" points="56 77.480143 70.662978 91 97 59"></polyline>
+        </g>
+        <text id="Lorem-ipsum" font-family="Helvetica" font-size="20" font-weight="normal" fill="#1A203E" fill-opacity="0.8">
+            <tspan x="808.702148" y="465">Lorem ipsum</tspan>
+        </text>
+        <g id="H2-Headline-sections" transform="translate(273.000000, 78.000000)">
+            <text font-family="Helvetica" font-size="32" font-weight="bold" fill="#1A203E">
+                <tspan x="133.34" y="31">How it works</tspan>
+            </text>
+            <path d="M195.260695,55.5 L261.564171,55.5" id="Line" stroke="#3891AD" stroke-width="4" stroke-linecap="square" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

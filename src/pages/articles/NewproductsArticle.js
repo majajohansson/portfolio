@@ -9,22 +9,32 @@ import {
   StyledSummaryPane,
 } from '../../styledComponents';
 
-import articleNewProductsPicture from '../../assets/Masthead.png';
+import articleNewProductsPicture from '../../assets/accountCreditHero.svg';
+import howItWorks from '../../assets/howItWorks.svg';
 
 const NewProductsArticle = ({ match }) => (
   <Page match={match}>
     <StyledSummary>
       <StyledSummaryPane>
-        <StyledH1>Releasing new products</StyledH1>
-        <StyledParagraph>Releasing new products is a project which started in July 2018 and is still ongoing. In this project I am the UX/UI designer and responsible for all aspects of product design...</StyledParagraph>
+        <StyledH1>Releasing new product</StyledH1>
+        <StyledParagraph>Releasing new product is a project which started during the fall of 2018. In this project I have been the UX/UI designer and responsible for all aspects of product design, for example designing the process and website, user testing and creating material and presentations for stakeholders, while also improving the current product.</StyledParagraph>
+        <StyledParagraph>Team: Me (UX designer), 4 developers, 1 product owner, other stakeholders</StyledParagraph>
       </StyledSummaryPane>
       <StyledSummaryPane>
         <img src={articleNewProductsPicture} />
       </StyledSummaryPane>
     </StyledSummary>
     <StyledPost>
-      <StyledParagraph>Releasing new products is a project which started in July 2018 and is still ongoing. In this project I am the UX/UI designer and responsible for all aspects of product design, for example designing the process and website, user testing and creating material and presentations for stakeholders, while also improving the current product. The goal of the project is to release three new products; Samlingslån, personal loan and partner loan.</StyledParagraph>
-      <StyledParagraph>I am currently working on creating a set of illustrations that will be used as hero images and also throughout the website. I am making the illustrations in Sketch. Soon I will be able to share more pictures and comments on what I have been working on this fall.</StyledParagraph>
+      <StyledH2>Background</StyledH2>
+      <StyledParagraph>A few months before this project I did research to find out our customers’ needs of future products. Some methods I used was surveys, interviews and analyzing data.</StyledParagraph>
+
+      <StyledH2>Development</StyledH2>
+      <StyledParagraph>Using the styleguide and brandbook I had created earlier, I could quickly put together an MVP prototype for user testing. After several iterations of user testing I had a version where it did not occur any problems.</StyledParagraph>
+      <StyledParagraph>I also put up heatmaps and other tools on the website to see how the users were interacting with the website. This does not give me any deep understanding of the users’ behavior, but it can at least give me an idea of the users’ interests in the products.</StyledParagraph>
+      <StyledParagraph>To see the interest for a debt consolidation loan I designed a simple corresponding landing page with CTA-buttons. On the heatmaps I could then see how many users that were interacting with this page.</StyledParagraph>
+      <StyledParagraph>Turning back to Sketch, I finalized the design, created all assets that were needed and it was implemented on the website.</StyledParagraph>
+
+      <img src={howItWorks} />
     </StyledPost>
   </Page>
 );

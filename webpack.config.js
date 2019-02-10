@@ -1,11 +1,13 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const WebappWebpackPlugin = require('webapp-webpack-plugin');
 
 module.exports = env => {
   const isDev = process.env.NODE_ENV !== 'production';
 
   const plugins = [
+    new WebappWebpackPlugin(path.resolve(__dirname, 'src/assets', 'Favicon.svg')),
     new HtmlWebpackPlugin({
       inject: true,
       template: path.resolve(__dirname, 'src', 'index.html'),
@@ -44,6 +46,16 @@ module.exports = env => {
           options: {
             presets: ['env', 'react']
           }
+        },
+        {
+          test: /\.svg$/,
+          use: {
+            loader: 'svg-url-loader',
+            options: {
+              noquotes: true,
+              stripdeclarations: true,
+            },
+          },
         },
         {
           test: /\.(jpe?g|png)/,

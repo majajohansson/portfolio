@@ -9,7 +9,7 @@ import {
   StyledSummaryPane,
 } from '../../styledComponents';
 
-import articleProcessPicture from '../../assets/process.png';
+import articleProcessPicture from '../../assets/myProcess.svg';
 
 const MyProcessArticle = ({ match }) => (
   <Page match={match}>

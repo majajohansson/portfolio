@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Favicon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Favicon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="100" cy="100" r="100"></circle>
+        <g id="Group" transform="translate(20.000000, 30.000000)" fill="#000000" font-family="LucidaGrande-Bold, Lucida Grande" font-size="110" font-weight="bold">
+            <text id="M">
+                <tspan x="0" y="106">M</tspan>
+            </text>
+            <text id="J">
+                <tspan x="110.9" y="106"> J</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
