@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="680px" viewBox="0 0 1000 680" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>faq</title>
+    <desc>Created with Sketch.</desc>
+    <g id="faq" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#EFEFEF" x="0" y="0" width="1000" height="680"></rect>
+        <g id="Section" transform="translate(41.000000, 66.000000)">
+            <path d="M426.5,130 L426.5,392.5" id="Line-2" stroke="#CBCBCB" stroke-linecap="square" fill-rule="nonzero"></path>
+            <g id="Section-Heading" transform="translate(358.000000, 0.000000)" fill="#1A2634" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="32" font-weight="normal">
+                <text id="Lorem-ipsum">
+                    <tspan x="0.5703125" y="30">Lorem ipsum</tspan>
+                </text>
+            </g>
+            <g id="text" transform="translate(59.000000, 130.000000)" fill="#1A2634" font-weight="normal">
+                <text id="Lorem-ipsum-dolor?" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="24">
+                    <tspan x="98" y="36">Lorem ipsum dolor?</tspan>
+                </text>
+                <text id="Lorem-ipsum?" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="24">
+                    <tspan x="165" y="105">Lorem ipsum?</tspan>
+                </text>
+                <text id="Lorem-ipsum-dolor?" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="24">
+                    <tspan x="98" y="174">Lorem ipsum dolor?</tspan>
+                </text>
+                <text id="Lorem-ipsum-dolor-si" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="24">
+                    <tspan x="0" y="243">Lorem ipsum dolor sit amet?</tspan>
+                </text>
+                <text id="Lorem-ipsum-dolor-si" font-family="Poppins-Regular, Poppins" font-size="14" line-spacing="23">
+                    <tspan x="404" y="15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </tspan>
+                    <tspan x="404" y="38">sed do eiusmod tempor incididunt ut labore et dolore </tspan>
+                    <tspan x="404" y="61">magna aliqua. Ut enim ad minim veniam, quis nostrud </tspan>
+                    <tspan x="404" y="84">exercitation.</tspan>
+                </text>
+            </g>
+            <path d="M426.5,130 L426.5,167" id="Line-3" stroke="#54DEEA" stroke-width="3" stroke-linecap="square" fill-rule="nonzero"></path>
+        </g>
+        <g id="Läs-mer-Copy-5" transform="translate(428.000000, 534.000000)">
+            <rect id="Rectangle-3" stroke="#54DEEA" stroke-width="2.106" fill-rule="nonzero" x="1.053" y="1.053" width="142.247664" height="41.0168571" rx="8.424"></rect>
+            <text id="Lorem" font-family="Helvetica" font-size="21.06" font-weight="normal" fill="#54DEEA">
+                <tspan x="42.3298349" y="27.5465">Lorem</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

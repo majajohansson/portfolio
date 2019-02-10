@@ -12,6 +12,7 @@ import howItWorks from '../../assets/howItWorks.svg';
 import accountCreditHero from '../../assets/accountCreditHero.svg';
 import debtConsolidationLoan from '../../assets/debtConsolidationLoan.svg';
 import aboutMoank from '../../assets/aboutMoank.svg';
+import faq from '../../assets/faq.svg';
 
 const VisualDesignArticle = ({ match }) => (
   <Page match={match}>
@@ -33,6 +34,7 @@ const VisualDesignArticle = ({ match }) => (
       <img src={debtConsolidationLoan} />
       <img src={howItWorks} />
       <img src={aboutMoank} />
+      <img src={faq} />
     </StyledPost>
   </Page>
 );
