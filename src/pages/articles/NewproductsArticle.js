@@ -17,7 +17,8 @@ const NewProductsArticle = ({ match }) => (
     <StyledSummary>
       <StyledSummaryPane>
         <StyledH1>Releasing new product</StyledH1>
-        <StyledParagraph>Releasing new product is a project which started during the fall of 2018. In this project I have been the UX/UI designer and responsible for all aspects of product design, for example designing the process and website, user testing and creating material and presentations for stakeholders, while also improving the current product. The goal of the project was to release a new product; Debt Consolidation Loan (Samlingslån in Swedish).</StyledParagraph>
+        <StyledParagraph>Releasing new product is a project which started during the fall of 2018. In this project I have been the UX/UI designer and responsible for all aspects of product design, for example designing the process and website, user testing and creating material and presentations for stakeholders, while also improving the current product.</StyledParagraph>
+        <StyledParagraph>Team: Me (UX designer), 4 developers, 1 product owner, other stakeholders</StyledParagraph>
       </StyledSummaryPane>
       <StyledSummaryPane>
         <img src={articleNewProductsPicture} />
