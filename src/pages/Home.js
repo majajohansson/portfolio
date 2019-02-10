@@ -1,7 +1,7 @@
 import React from 'react';
 import articleMoankPicture from '../assets/article-moank.png';
 import articleProcessPicture from '../assets/process.png';
-import articleNewProductsPicture from '../assets/Masthead.png';
+import articleNewProductsPicture from '../assets/accountCreditHero.svg';
 import { Article, Page, Banner } from '../ui';
 import { StyledArticleList } from '../styledComponents';
 
@@ -12,10 +12,10 @@ const Home = ({ match }) => (
     <StyledArticleList>
       <Article
         picture={articleNewProductsPicture}
-        title="Releasing new products"
+        title="Releasing new product"
         slug="newproducts"
       >
-        Releasing new products is a project which started in July 2018 and is still ongoing. In this project I am the UX/UI designer and responsible for all aspects of product design...
+        Releasing new product is a project which started in July 2018 and is still ongoing. In this project I am the UX/UI designer and responsible for all aspects of product design...
       </Article>
       <Article
         picture={articleMoankPicture}

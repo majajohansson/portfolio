@@ -9,13 +9,14 @@ import {
   StyledSummaryPane,
 } from '../../styledComponents';
 
-import articleNewProductsPicture from '../../assets/Masthead.png';
+import articleNewProductsPicture from '../../assets/accountCreditHero.svg';
+import howItWorks from '../../assets/howItWorks.svg';
 
 const NewProductsArticle = ({ match }) => (
   <Page match={match}>
     <StyledSummary>
       <StyledSummaryPane>
-        <StyledH1>Releasing new products</StyledH1>
+        <StyledH1>Releasing new product</StyledH1>
         <StyledParagraph>Releasing new product is a project which started during the fall of 2018. In this project I have been the UX/UI designer and responsible for all aspects of product design, for example designing the process and website, user testing and creating material and presentations for stakeholders, while also improving the current product. The goal of the project was to release a new product; Debt Consolidation Loan (Samlingslån in Swedish).</StyledParagraph>
       </StyledSummaryPane>
       <StyledSummaryPane>
@@ -31,6 +32,8 @@ const NewProductsArticle = ({ match }) => (
       <StyledParagraph>I also put up heatmaps and other tools on the website to see how the users were interacting with the website. This does not give me any deep understanding of the users’ behavior, but it can at least give me an idea of the users’ interests in the products.</StyledParagraph>
       <StyledParagraph>To see the interest for a debt consolidation loan I designed a simple corresponding landing page with CTA-buttons. On the heatmaps I could then see how many users that were interacting with this page.</StyledParagraph>
       <StyledParagraph>Turning back to Sketch, I finalized the design, created all assets that were needed and it was implemented on the website.</StyledParagraph>
+
+      <img src={howItWorks} />
     </StyledPost>
   </Page>
 );
