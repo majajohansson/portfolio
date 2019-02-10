@@ -1,6 +1,6 @@
 import AboutMe from './AboutMe';
 import Home from './Home';
-import { MoankArticle, MyprocessArticle, NewProductsArticle, ImprovedUxArticle } from './articles';
+import { MoankArticle, MyprocessArticle, NewProductsArticle, ImprovedUxArticle, VisualDesignArticle } from './articles';
 
 export {
   AboutMe,
@@ -9,4 +9,5 @@ export {
   MoankArticle,
   MyprocessArticle,
   NewProductsArticle,
+  VisualDesignArticle,
 }

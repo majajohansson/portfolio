@@ -3,6 +3,7 @@ import articleMoankPicture from '../assets/article-moank.png';
 import articleProcessPicture from '../assets/process.png';
 import articleQRCodePicture from '../assets/QRcode-picture.svg';
 import articleNewProductsPicture from '../assets/accountCreditHero.svg';
+import articleViualDesignPicture from '../assets/howItWorks.svg';
 import { Article, Page, Banner } from '../ui';
 import { StyledArticleList } from '../styledComponents';
 
@@ -24,6 +25,13 @@ const Home = ({ match }) => (
         slug="moank"
       >
         In January 2018 I was hired by a FinTech startup called Moank, a company specialising in consumer loans, to do a revamp of the website.
+      </Article>
+      <Article
+        picture={articleViualDesignPicture}
+        title="UI Design"
+        slug="visual-design"
+      >
+        I love to design simple and beautiful digital experiences that create real value for end users. Here are some of the illustrations I made during this project.
       </Article>
       <Article
         picture={articleQRCodePicture}
