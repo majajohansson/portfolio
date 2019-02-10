@@ -17,7 +17,7 @@ const Home = ({ match }) => (
         title="Releasing new product"
         slug="newproducts"
       >
-        Releasing new product is a project which started in July 2018 and is still ongoing. In this project I am the UX/UI designer and responsible for all aspects of product design...
+        Releasing new product is a project which started during the fall of 2018. In this project I have been the UX/UI designer and responsible for all aspects of product design...
       </Article>
       <Article
         picture={articleMoankPicture}
