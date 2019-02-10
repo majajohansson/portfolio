@@ -1,6 +1,7 @@
 import React from 'react';
 import articleMoankPicture from '../assets/article-moank.png';
 import articleProcessPicture from '../assets/process.png';
+import articleQRCodePicture from '../assets/QRcode-picture.svg';
 import articleNewProductsPicture from '../assets/accountCreditHero.svg';
 import { Article, Page, Banner } from '../ui';
 import { StyledArticleList } from '../styledComponents';
@@ -23,6 +24,13 @@ const Home = ({ match }) => (
         slug="moank"
       >
         In January 2018 I was hired by a FinTech startup called Moank, a company specialising in consumer loans, to do a revamp of the website.
+      </Article>
+      <Article
+        picture={articleQRCodePicture}
+        title="How I improved the user experience of my user testing sessions"
+        slug="qr-code-ux"
+      >
+        This is how I improved the user experience of my user testing sessions outside of the office.
       </Article>
       <Article
         picture={articleProcessPicture}
