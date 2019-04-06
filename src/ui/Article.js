@@ -11,18 +11,9 @@ import {
 } from '../styledComponents';
 import ArrowLink from './ArrowLink';
 
-const Article = ({ picture, title, children, slug }) => (
-  <StyledArticle>
-    <StyledArticleImage src={picture} />
-    <StyledArticleDescription>
-      <StyledH2>{title}</StyledH2>
-      <StyledParagraph>
-        {children}
-      </StyledParagraph>
-      <StyledParagraph>
-        <ArrowLink to={`/article/${slug}`}>Read more</ArrowLink>
-      </StyledParagraph>
-    </StyledArticleDescription>
+const Article = ({ picture, title, slug }) => (
+  <StyledArticle background={picture} to={`/article/${slug}`}>
+    <StyledH2>{title}</StyledH2>
   </StyledArticle>
 );
 

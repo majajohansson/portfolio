@@ -9,9 +9,9 @@ import {
   StyledSummaryPane,
 } from '../../styledComponents';
 
-import articleMoankPicture from '../../assets/article-moank.png';
-import PortfolioExample from '../../assets/PortfolioExample.png';
-import newFeaturesPersonalPage from '../../assets/newFeaturesPersonalPage.svg';
+import articleImprovingConversion from '../../assets/ImprovingConversion.png';
+import NewDesign from '../../assets/Old_design1.png';
+import newFeaturesPersonalPage from '../../assets/Old_design2.svg';
 
 const MoankArticle = ({ match }) => (
   <Page match={match}>
@@ -21,17 +21,24 @@ const MoankArticle = ({ match }) => (
         <StyledParagraph>In the beginning of 2018 I was hired as a UI/UX designer at Moank, a Fintech startup in Stockholm specializing in consumer loans. My role has involved user research, data analysis as well as design, prototyping and user testing.</StyledParagraph>
       </StyledSummaryPane>
       <StyledSummaryPane>
-        <img src={articleMoankPicture} />
+        <img src={articleImprovingConversion} />
       </StyledSummaryPane>
     </StyledSummary>
     <StyledPost>
+      <StyledH2>Introducing Lean UX</StyledH2>
+      <StyledParagraph>I am a strong believer in Lean UX development which is why I introduced this at the company. In Lean UX, there is not a clearly defined designer roll where the designer comes up with all the ideas themselves. Rather, the user experience is a team collaboration. For example:</StyledParagraph>
+      <ul>
+        <li>If a developer introduces a bug, it impacts the user experience.</li>
+        <li>If a product manager does not take into consideration user needs, features users does not need might be prioritized.</li>
+      </ul>
+      <StyledParagraph>Makes sense, right?</StyledParagraph>
       <StyledH2>Understanding the problem</StyledH2>
-      <StyledParagraph>When I first arrived to Moank I realized based on data analysis and interviews/user testing, that the user experience could be improved.</StyledParagraph>
-      <StyledParagraph>One major issue with the website was the high drop off rate. Several customers who started the sign-up flow dropped off more and more further in the process. The sign-up design was also inconsistent with the rest of the website.</StyledParagraph>
-      <StyledParagraph>The reason for the high drop off rate was because the sign-up flow was composed of too many steps – it took too long to finish and the users lost interest during the process.</StyledParagraph>
-      <StyledParagraph>Shortening the process and changing the design to the image that Moank wants to give; a modern and serious tech company, led to an increased conversion rate.</StyledParagraph>
+      <StyledParagraph>When I first arrived to Moank I realized based on data analysis and interviews/user testing, that the user experience of the website could be improved.</StyledParagraph>
+      <StyledParagraph>One major issue with the website was the high drop off rate. Several users who started the sign-up flow dropped off more and more further in the process. The sign-up design was also inconsistent with the rest of the website.</StyledParagraph>
+      <StyledParagraph>Interviews and user testing sessions uncovered that the reason for the high drop off rate was because the sign-up flow was composed of too many steps – it took too long to finish and the users lost interest during the process.
+                        Shortening the process and changing the design to the image that Moank wants to give; a modern and serious tech company, led to an increased conversion rate.</StyledParagraph>
 
-      <img src={PortfolioExample} />
+      <img src={NewDesign} />
 
       <StyledH2>Personal page</StyledH2>
       <StyledParagraph>Another problem with the previous website was the personal page; it consisted of one single page displaying a lot of information – hence, a lot of scrolling. Interviews and tests showed that the personal page was not really easy to understand and was lacking critical information.</StyledParagraph>

@@ -52,6 +52,7 @@ module.exports = env => {
           use: {
             loader: 'svg-url-loader',
             options: {
+              limit: 10000,
               noquotes: true,
               stripdeclarations: true,
             },

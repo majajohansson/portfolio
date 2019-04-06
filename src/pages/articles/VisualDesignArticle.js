@@ -10,19 +10,21 @@ import {
 
 import howItWorks from '../../assets/howItWorks.svg';
 import accountCreditHero from '../../assets/accountCreditHero.svg';
+import moanklanetillustration from '../../assets/MoankLanet_illustration.svg';
 import debtConsolidationLoan from '../../assets/debtConsolidationLoan.svg';
 import aboutMoank from '../../assets/aboutMoank.svg';
 import faq from '../../assets/faq.svg';
+import VisualDesign from '../../assets/UIDesign.svg';
 
 const VisualDesignArticle = ({ match }) => (
   <Page match={match}>
     <StyledSummary>
       <StyledSummaryPane>
-        <StyledH1>UI Design</StyledH1>
-        <StyledParagraph>I love to design simple and beautiful digital experiences that create real value for end users. Here are some of the illustrations I made during this project.</StyledParagraph>
+        <StyledH1>Visual Design</StyledH1>
+        <StyledParagraph>I love to design simple and beautiful digital experiences that create real value for end users. Here are some of the illustrations I have made lately.</StyledParagraph>
       </StyledSummaryPane>
       <StyledSummaryPane>
-        <img src={howItWorks} />
+        <img src={VisualDesign} />
       </StyledSummaryPane>
     </StyledSummary>
     <StyledPost>
@@ -31,6 +33,7 @@ const VisualDesignArticle = ({ match }) => (
       <StyledParagraph>Here are some of the illustrations I made during this project.</StyledParagraph>
 
       <img src={accountCreditHero} />
+      <img src={moanklanetillustration} />
       <img src={debtConsolidationLoan} />
       <img src={howItWorks} />
       <img src={aboutMoank} />

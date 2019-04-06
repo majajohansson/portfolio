@@ -1,26 +1,53 @@
 import styled from 'styled-components';
 import { rgba } from 'polished';
 import { media, colors, shades } from './styles';
+import StyledH2 from './StyledH2';
 
-const StyledArticle = styled.div`
-  background-color: ${colors.primary};
+import { Link } from 'react-router-dom';
+
+const StyledArticle = styled(Link)`
+  background-image: url("${props => props.background}");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  margin: 2rem;
-  height: 40rem;
-  max-width: 30rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0.75rem;
+  height: 16rem;
+  max-width: 28rem;
   width: 100%;
+  padding: 2rem;
+  color: transparent;
+  transition: color 0.3s ease;
+  position: relative;
+  text-decoration: none;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
 
   &:hover {
-    box-shadow: 0 0.2rem 1.5rem ${rgba(colors.dark, shades.darker)};
-    transform: translateY(-0.2rem);
-    transition-property: box-shadow, transform;
-    transition-duration: 0.3s;
+    color: white;
+
+    &::before {
+      background-color: rgba(0,0,0,0.5);
+    }
+  }
+
+  ${StyledH2} {
+    z-index: 1;
+    text-align: center;
   }
 
   ${media.phone`
-    height: auto;
     margin: 2rem 0;
   `}
 `;
