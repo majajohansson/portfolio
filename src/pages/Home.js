@@ -3,17 +3,23 @@ import articleImprovingConversion from '../assets/ImprovingConversion.png';
 import articleProcessPicture from '../assets/myProcess.svg';
 import articleMyProcess from '../assets/MyProcess.png';
 import articleQRCodePicture from '../assets/QRcode-picture.svg';
-import articleNewProduct from '../assets/Prototype.svg';
 import articleNewProductPNG from '../assets/Prototype.png';
 import articleViualDesignPicture from '../assets/UIDesign.png';
+import articleErisLawPicture from '../assets/ErisLaw_article_image.png';
 import { Article, Page, Banner } from '../ui';
 import { StyledArticleList } from '../styledComponents';
+
 
 
 const Home = ({ match }) => (
   <Page match={match}>
     <Banner />
     <StyledArticleList>
+      <Article
+        picture={articleErisLawPicture}
+        title="Web design for Eris Law Advokatbyrå"
+        slug="lawfirm"
+      />
       <Article
         picture={articleNewProductPNG}
         title="Releasing new product"

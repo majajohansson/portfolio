@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import { Home, AboutMe, MoankArticle, MyprocessArticle, NewProductsArticle, ImprovedUxArticle, VisualDesignArticle } from './pages';
+import { Home, AboutMe, MoankArticle, MyprocessArticle, NewProductsArticle, ImprovedUxArticle, VisualDesignArticle, ErisLawArticle } from './pages';
 import scrollUpOnEnter from './hoc/scrollUpOnEnter';
 import GlobalStyle from './styledComponents/GlobalStyle';
 
@@ -19,6 +19,7 @@ ReactDOM.render(
         <Route path="/article/myprocess" component={scrollUpOnEnter(MyprocessArticle)} />
         <Route path="/article/qr-code-ux" component={scrollUpOnEnter(ImprovedUxArticle)} />
         <Route path="/article/newproducts" component={scrollUpOnEnter(NewProductsArticle)} />
+        <Route path="/article/lawfirm" component={scrollUpOnEnter(ErisLawArticle)} />
       </Switch>
     </BrowserRouter>
   </React.Fragment>,

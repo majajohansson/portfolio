@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1000px" height="680px" viewBox="0 0 1000 680" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
     <title>Prototype</title>
     <desc>Created with Sketch.</desc>
     <defs>
@@ -277,7 +277,7 @@
         <g id="Button" transform="translate(137.000000, 268.000000)">
             <rect id="Rectangle-2" fill="#3891AD" fill-rule="evenodd" x="0" y="0" width="120" height="37.2387097" rx="1.2"></rect>
             <text id="Ansök-här" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" fill="#FFFFFF">
-                <tspan x="44.874" y="23.1354839">Apply</tspan>
+                <tspan x="43.44" y="23.1354839">Ansök</tspan>
             </text>
         </g>
         <path d="M245.5,286.5 L683.5,286.5" id="Line" stroke="#FF714E" stroke-width="3" stroke-linecap="square"></path>
@@ -330,14 +330,14 @@
         </g>
         <g id="Läs-mer-Copy" transform="translate(437.000000, 306.000000)">
             <rect id="Rectangle" stroke="#3891AD" x="0.5" y="0.5" width="119" height="36.2" rx="1.2"></rect>
-            <text id="Read-more" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" fill="#3891AD">
-                <tspan x="31.356" y="23">Read more</tspan>
+            <text id="Läs-mer" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" fill="#3891AD">
+                <tspan x="39.318" y="23">Läs mer</tspan>
             </text>
         </g>
         <g id="Button" transform="translate(437.000000, 247.000000)">
             <rect id="Rectangle-2" fill="#3891AD" fill-rule="evenodd" x="0" y="0" width="120" height="37.2387097" rx="1.2"></rect>
             <text id="Ansök-här" font-family="ProximaNova-Regular, Proxima Nova" font-size="12" font-weight="normal" fill="#FFFFFF">
-                <tspan x="44.874" y="23.1354839">Apply</tspan>
+                <tspan x="43.44" y="23.1354839">Ansök</tspan>
             </text>
         </g>
         <g id="Group-4-Copy" transform="translate(417.676912, 376.000000)">
@@ -549,12 +549,12 @@
                 <polygon id="Triangle-Copy" fill="#FF714E" transform="translate(449.750000, 8.060784) rotate(90.000000) translate(-449.750000, -8.060784) " points="449.75 1.81078431 457.25 14.3107843 442.25 14.3107843"></polygon>
             </g>
         </g>
-        <g id="Group-2" transform="translate(656.500000, 51.500000) rotate(90.000000) translate(-656.500000, -51.500000) translate(605.000000, -107.000000)">
-            <path d="M-2.84217094e-14,317 L23.4690942,317 L23.4690942,8 L95,8" id="Line" stroke="#FF714E" stroke-width="3" stroke-linecap="square" stroke-dasharray="7"></path>
+        <g id="Group-2" transform="translate(657.000000, 51.500000) rotate(90.000000) translate(-657.000000, -51.500000) translate(605.500000, -106.500000)">
+            <path d="M-2.84217094e-14,316 L46.1496253,316 L46.1496253,7 L95,7" id="Line" stroke="#FF714E" stroke-width="3" stroke-linecap="square" stroke-dasharray="7"></path>
             <polygon id="Triangle" fill="#FF714E" transform="translate(96.500000, 7.500000) rotate(90.000000) translate(-96.500000, -7.500000) " points="96.5 1 104 14 89 14"></polygon>
         </g>
         <path d="M543.676912,266.5 L685.5,266.5" id="Path-2" stroke="#FF714E" stroke-width="3"></path>
-        <g id="Group-2-Copy-2" transform="translate(288.000000, 643.500000) rotate(90.000000) translate(-288.000000, -643.500000) translate(251.500000, 355.500000)" stroke="#FF714E" stroke-dasharray="7" stroke-linecap="square" stroke-width="3">
+        <g id="Group-2-Copy-2" transform="translate(288.000000, 654.500000) rotate(90.000000) translate(-288.000000, -654.500000) translate(251.500000, 366.500000)" stroke="#FF714E" stroke-dasharray="7" stroke-linecap="square" stroke-width="3">
             <path d="M-1.42108547e-14,576 L0.969094232,0.5 L72.5,0.5" id="Line"></path>
         </g>
         <g id="MOANK-LOGO" transform="translate(711.000000, 152.000000)" fill="#4D669A">

@@ -3,6 +3,7 @@ import MoankArticle from './MoankArticle';
 import MyprocessArticle from './MyprocessArticle';
 import NewProductsArticle from './NewProductsArticle';
 import VisualDesignArticle from './VisualDesignArticle';
+import ErisLawArticle from './ErisLawArticle';
 
 export {
   ImprovedUxArticle,
@@ -10,4 +11,5 @@ export {
   MyprocessArticle,
   NewProductsArticle,
   VisualDesignArticle,
+  ErisLawArticle,
 }
