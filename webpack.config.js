@@ -52,6 +52,7 @@ module.exports = env => {
           use: {
             loader: 'svg-url-loader',
             options: {
+              name: '[name].[hash].[ext]',
               limit: 10000,
               noquotes: true,
               stripdeclarations: true,
