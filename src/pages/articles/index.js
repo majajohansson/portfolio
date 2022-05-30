@@ -1,4 +1,5 @@
 import DesignPrice from './DesignPrice';
+import DoubleDiamond from './DoubleDiamond';
 import ImprovedUxArticle from './ImprovedUxArticle';
 import MoankArticle from './MoankArticle';
 import MyprocessArticle from './MyprocessArticle';
@@ -8,6 +9,7 @@ import ErisLawArticle from './ErisLawArticle';
 
 export {
   DesignPrice,
+  DoubleDiamond,
   ImprovedUxArticle,
   MoankArticle,
   MyprocessArticle,

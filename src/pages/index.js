@@ -8,6 +8,7 @@ import {
   VisualDesignArticle,
   ErisLawArticle,
   DesignPrice,
+  DoubleDiamond,
 } from './articles';
 
 export {
@@ -20,4 +21,5 @@ export {
   VisualDesignArticle,
   ErisLawArticle,
   DesignPrice,
+  DoubleDiamond,
 }

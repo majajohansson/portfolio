@@ -12,6 +12,7 @@ import {
   VisualDesignArticle,
   ErisLawArticle,
   DesignPrice,
+  DoubleDiamond,
 } from './pages';
 import scrollUpOnEnter from './hoc/scrollUpOnEnter';
 import GlobalStyle from './styledComponents/GlobalStyle';
@@ -31,6 +32,7 @@ ReactDOM.render(
         <Route path="/article/newproducts" component={scrollUpOnEnter(NewProductsArticle)} />
         <Route path="/article/lawfirm" component={scrollUpOnEnter(ErisLawArticle)} />
         <Route path="/article/design-price" component={scrollUpOnEnter(DesignPrice)} />
+        <Route path="/article/double-diamond" component={scrollUpOnEnter(DoubleDiamond)} />
       </Switch>
     </BrowserRouter>
   </React.Fragment>,
