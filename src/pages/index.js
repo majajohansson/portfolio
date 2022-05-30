@@ -1,6 +1,14 @@
 import AboutMe from './AboutMe';
 import Home from './Home';
-import { MoankArticle, MyprocessArticle, NewProductsArticle, ImprovedUxArticle, VisualDesignArticle, ErisLawArticle } from './articles';
+import {
+  MoankArticle,
+  MyprocessArticle,
+  NewProductsArticle,
+  ImprovedUxArticle,
+  VisualDesignArticle,
+  ErisLawArticle,
+  DesignPrice,
+} from './articles';
 
 export {
   AboutMe,
@@ -11,4 +19,5 @@ export {
   NewProductsArticle,
   VisualDesignArticle,
   ErisLawArticle,
+  DesignPrice,
 }

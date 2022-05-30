@@ -1,3 +1,4 @@
+import DesignPrice from './DesignPrice';
 import ImprovedUxArticle from './ImprovedUxArticle';
 import MoankArticle from './MoankArticle';
 import MyprocessArticle from './MyprocessArticle';
@@ -6,6 +7,7 @@ import VisualDesignArticle from './VisualDesignArticle';
 import ErisLawArticle from './ErisLawArticle';
 
 export {
+  DesignPrice,
   ImprovedUxArticle,
   MoankArticle,
   MyprocessArticle,
