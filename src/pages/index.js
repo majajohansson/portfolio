@@ -9,6 +9,7 @@ import {
   ErisLawArticle,
   DesignPrice,
   DoubleDiamond,
+  OrganiseDesignTeam,
 } from './articles';
 
 export {
@@ -22,4 +23,5 @@ export {
   ErisLawArticle,
   DesignPrice,
   DoubleDiamond,
+  OrganiseDesignTeam,
 }

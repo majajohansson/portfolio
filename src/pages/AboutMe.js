@@ -14,9 +14,9 @@ const AboutMe = ({ match }) => (
     <StyledProfile>
       <img src={profilePicture} />
       <StyledProfileDescription>
-        <StyledParagraph>My name is Maja. I’m a product design graduate, currently working as a UI/UX designer at a FinTech Startup in Stockholm.</StyledParagraph>
+        <StyledParagraph>My name is Maja. I’m a product design graduate, currently working as a UI/UX designer at a FinTech Startup in Stockholm. My main focus is user research and UX design.</StyledParagraph>
         <StyledParagraph>Driven by problem solving, I love to design simple and beautiful digital experiences that create real value for end users.</StyledParagraph>
-        <StyledParagraph>I like to work closely to customers and I strongly believe that a good design can not be achieved without them. User feedback help me reflect on my work to improve it and create a better user experience.</StyledParagraph>
+        <StyledParagraph>I like to work closely to customers and I strongly believe that a good design can not be achieved without them. User feedback helps me reflect on my work to improve it and create a better user experience.</StyledParagraph>
       </StyledProfileDescription>
     </StyledProfile>
     <StyledContact>

@@ -7,6 +7,7 @@ import articleViualDesignPicture from '../assets/UIDesign.png';
 import articleErisLawPicture from '../assets/ErisLaw_article_image.png';
 import designPricePicture from '../assets/design-price.png';
 import doubleDiamondPicture from '../assets/Double_diamond.png';
+import organiseDesignTeamPicture from '../assets/designers_ways_of_working.png';
 import { Article, Page, Banner } from '../ui';
 import { StyledArticleList } from '../styledComponents';
 
@@ -25,6 +26,11 @@ const Home = ({ match }) => (
         picture={doubleDiamondPicture}
         title="The Double Diamond process"
         slug="double-diamond"
+      />
+      <Article
+        picture={organiseDesignTeamPicture}
+        title="Designers' ways of working"
+        slug="organise-design-team"
       />
       <Article
         picture={articleErisLawPicture}

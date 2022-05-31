@@ -4,6 +4,7 @@ import ImprovedUxArticle from './ImprovedUxArticle';
 import MoankArticle from './MoankArticle';
 import MyprocessArticle from './MyprocessArticle';
 import NewProductsArticle from './NewProductsArticle';
+import OrganiseDesignTeam from './OrganiseDesignTeam';
 import VisualDesignArticle from './VisualDesignArticle';
 import ErisLawArticle from './ErisLawArticle';
 
@@ -14,6 +15,7 @@ export {
   MoankArticle,
   MyprocessArticle,
   NewProductsArticle,
+  OrganiseDesignTeam,
   VisualDesignArticle,
   ErisLawArticle,
 }
