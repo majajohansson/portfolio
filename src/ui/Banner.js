@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { StyledBanner, StyledParagraph, StyledBannerContent } from '../styledComponents';
+import { StyledBanner, StyledParagraph, StyledBannerContent, StyledH2 } from '../styledComponents';
 import ArrowLink from './ArrowLink';
-import profilePicture from '../assets/maja.jpg';
+import profilePicture from '../assets/profile_picture.png';
 
 const Banner = () => (
   <StyledBanner>
     <img src={profilePicture} />
     <StyledBannerContent>
-      <StyledParagraph>Hi! My name is Maja. I’m a product design graduate, currently working as a UI/UX designer at a FinTech Startup in Stockholm.</StyledParagraph>
+      <StyledH2>UX Designer</StyledH2>
+      <StyledParagraph>Hi! My name is Maja. Driven by problem solving, I love to design simple and beautiful digital experiences that create real value for end users.</StyledParagraph>
       <StyledParagraph>
         <ArrowLink to="/about-me">Learn more about me</ArrowLink>
       </StyledParagraph>
