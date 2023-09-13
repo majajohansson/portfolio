@@ -9,12 +9,13 @@ import {
   StyledSummaryPane,
 } from '../../styledComponents';
 
-import ideationThemes from '../../assets/powerDesignThinking/crypto_ideation_themes.svg';
-import insightsNeeds from '../../assets/powerDesignThinking/crypto_insights_needs.svg';
-import interviewPrep from '../../assets/powerDesignThinking/crypto_interview_prep.svg';
-import pushNotifications from '../../assets/powerDesignThinking/crypto_push_notifications.svg';
-import userGroups from '../../assets/powerDesignThinking/crypto_user_groups.svg';
-import wireframing from '../../assets/powerDesignThinking/crypto_wireframing.svg';
+import crypto from '../../assets/powerDesignThinking/crypto_teaser.png';
+import ideationThemes from '../../assets/powerDesignThinking/crypto_ideation_themes.png';
+import insightsNeeds from '../../assets/powerDesignThinking/crypto_insights_needs.png';
+import interviewPrep from '../../assets/powerDesignThinking/crypto_interview_prep.png';
+import pushNotifications from '../../assets/powerDesignThinking/crypto_push_notifications.png';
+import userGroups from '../../assets/powerDesignThinking/crypto_user_groups.png';
+import wireframing from '../../assets/powerDesignThinking/crypto_wireframing.png';
 
 const PowerDesignThinkingArticle = ({ match }) => (
   <Page match={match}>
@@ -26,7 +27,7 @@ const PowerDesignThinkingArticle = ({ match }) => (
         <StyledParagraph>Time: 6 weeks</StyledParagraph>
       </StyledSummaryPane>
       <StyledSummaryPane>
-        <img src={wireframing} />
+        <img src={crypto} />
       </StyledSummaryPane>
     </StyledSummary>
     <StyledPost>
@@ -37,7 +38,7 @@ const PowerDesignThinkingArticle = ({ match }) => (
       <img src={interviewPrep} />
 
       <StyledH2>Analysing and “How might we” questions</StyledH2>
-      <StyledParagraph>Upon analyzing the interviews, we identified four distinct user groups, each with unique investment needs and attitudes. Additionally, we unearthed valuable general insights. One user group harmoniously aligned with both technical requirements and the company's principles. For two other user groups, there was potential interest, prompting us to pursue further investigation, recognizing potential similarities in their needs.</StyledParagraph>
+      <StyledParagraph>Upon analyzing the interviews, we identified four distinct user groups, each with unique investment needs and attitudes. One user group aligned with both technical requirements and the company's principles. For two other user groups, there was potential interest, prompting us to continue further investigation as there could be similarities in their needs.</StyledParagraph>
       <StyledParagraph>We formulated a series of "How might we" questions tailored to the specific needs of each group, which served as the foundation for our ideation process.</StyledParagraph>
       <StyledParagraph>The user groups we decided to explore further, along with their respective themes, are as follows:</StyledParagraph>
       <ol>
@@ -51,20 +52,19 @@ const PowerDesignThinkingArticle = ({ match }) => (
       <img src={ideationThemes} />
 
       <StyledH2>Wireframes and interview round 2</StyledH2>
-      <StyledParagraph>Guided by the "How might we" questions, we charted the customer journey for each user group. This journey encompassed essential steps such as app login, crypto feature discovery, and active participation in buying, holding, and selling cryptocurrencies. To bring these journeys to life, we crafted purposeful wireframes that aligned seamlessly with the unique needs and themes of each user group. Our commitment to user-centricity led us to embark on another round of interviews, where we rigorously tested our innovative concepts and design ideas.</StyledParagraph>
-      <StyledParagraph>This iterative approach ensured that our design solutions were not only aligned with the needs of each user group but also validated by real user feedback, reinforcing our commitment to delivering a truly user-focused crypto feature.</StyledParagraph>
+      <StyledParagraph>Guided by the "How might we" questions, we charted the customer journey for each user group. This journey encompassed essential steps such as app login, crypto feature discovery, and active participation in buying, holding, and selling cryptocurrencies. To bring these journeys to life, we crafted wireframes that aligned with the unique needs and themes of each user group. Our commitment to user-centricity led us to another round of interviews, where we tested our concepts and design ideas.</StyledParagraph>
 
       <img src={wireframing} />
 
       <StyledH2>Prototype and business case</StyledH2>
-      <StyledParagraph>Our discovery revealed that the Curious Investor user group not only aligned seamlessly with our investment principles but also represented a significant portion of our target product audience. Consequently, we made a strategic decision to tailor the crypto feature to meet this group's specific needs. In parallel, we developed a comprehensive business case and engaged in negotiations with potential partner companies.</StyledParagraph>
+      <StyledParagraph>Our discovery revealed that the Curious Investor user group not only aligned seamlessly with our investment principles but also represented a significant portion of our target product audience. Therefore, we made a strategic decision to tailor the crypto feature to meet this group's specific needs. In parallel, we developed a comprehensive business case and engaged in negotiations with potential partner companies.</StyledParagraph>
       <StyledParagraph>This strategic alignment with our user group and the robust business groundwork set the stage for a crypto feature that would not only resonate with our core audience but also contribute to the overall success of our product.</StyledParagraph>
 
       <img src={insightsNeeds} />
       <img src={pushNotifications} />
 
       <StyledParagraph>After diligently aligning our crypto feature with the needs of the Curious Investor user group and securing valuable partnerships, we progressed to create a full-fledged prototype. Extensive rounds of user testing refined our ideas, paving the way for an MVP version that our dedicated development team brought to life.</StyledParagraph>
-      <StyledParagraph>Today, I am thrilled to report that our crypto feature is now live in the app, delighting users and beginning to generate substantial revenue.</StyledParagraph>
+      <StyledParagraph>Today, I am happy to report that our crypto feature is now live in the app, delighting users and beginning to generate substantial revenue.</StyledParagraph>
       <StyledParagraph>This project stands as a testament to our commitment to user-centric design, demonstrating the transformative power of design thinking in the world of cryptocurrency.</StyledParagraph>
     </StyledPost>
   </Page>

@@ -8,7 +8,7 @@ import articleErisLawPicture from '../assets/ErisLaw_article_image.png';
 import designPricePicture from '../assets/design-price.png';
 import doubleDiamondPicture from '../assets/Double_diamond.png';
 import organiseDesignTeamPicture from '../assets/designers_ways_of_working.png';
-import wireframing from '../assets/powerDesignThinking/crypto_wireframing.svg';
+import crypto from '../assets/powerDesignThinking/crypto_teaser.png';
 import { Article, Page, Banner } from '../ui';
 import { StyledArticleList } from '../styledComponents';
 
@@ -19,7 +19,7 @@ const Home = ({ match }) => (
     <Banner />
     <StyledArticleList>
       <Article
-        picture={wireframing}
+        picture={crypto}
         title="The power of design thinking in the world of cryptocurrency"
         slug="power-design-thinking-cryptocurrency"
       />
