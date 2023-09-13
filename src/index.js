@@ -14,6 +14,7 @@ import {
   DesignPrice,
   DoubleDiamond,
   OrganiseDesignTeam,
+  PowerDesignThinkingArticle,
 } from './pages';
 import scrollUpOnEnter from './hoc/scrollUpOnEnter';
 import GlobalStyle from './styledComponents/GlobalStyle';
@@ -35,6 +36,7 @@ ReactDOM.render(
         <Route path="/article/design-price" component={scrollUpOnEnter(DesignPrice)} />
         <Route path="/article/double-diamond" component={scrollUpOnEnter(DoubleDiamond)} />
         <Route path="/article/organise-design-team" component={scrollUpOnEnter(OrganiseDesignTeam)} />
+        <Route path="/article/power-design-thinking-cryptocurrency" component={scrollUpOnEnter(PowerDesignThinkingArticle)} />
       </Switch>
     </BrowserRouter>
   </React.Fragment>,

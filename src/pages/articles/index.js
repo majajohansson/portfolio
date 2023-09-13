@@ -5,6 +5,7 @@ import MoankArticle from './MoankArticle';
 import MyprocessArticle from './MyprocessArticle';
 import NewProductsArticle from './NewProductsArticle';
 import OrganiseDesignTeam from './OrganiseDesignTeam';
+import PowerDesignThinkingArticle from './PowerDesignThinkingArticle';
 import VisualDesignArticle from './VisualDesignArticle';
 import ErisLawArticle from './ErisLawArticle';
 
@@ -16,6 +17,7 @@ export {
   MyprocessArticle,
   NewProductsArticle,
   OrganiseDesignTeam,
+  PowerDesignThinkingArticle,
   VisualDesignArticle,
   ErisLawArticle,
 }

@@ -10,6 +10,7 @@ import {
   DesignPrice,
   DoubleDiamond,
   OrganiseDesignTeam,
+  PowerDesignThinkingArticle,
 } from './articles';
 
 export {
@@ -24,4 +25,5 @@ export {
   DesignPrice,
   DoubleDiamond,
   OrganiseDesignTeam,
+  PowerDesignThinkingArticle,
 }
