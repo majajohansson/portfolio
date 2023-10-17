@@ -16,6 +16,7 @@ import {
   OrganiseDesignTeam,
   PowerDesignThinkingArticle,
   DuoProject,
+  Animations,
 } from './pages';
 import scrollUpOnEnter from './hoc/scrollUpOnEnter';
 import GlobalStyle from './styledComponents/GlobalStyle';
@@ -28,6 +29,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={scrollUpOnEnter(Home)} />
         <Route exact path="/about-me" component={scrollUpOnEnter(AboutMe)} />
+        <Route path="/article/animations" component={scrollUpOnEnter(Animations)} />
         <Route path="/article/moank" component={scrollUpOnEnter(MoankArticle)} />
         <Route path="/article/visual-design" component={scrollUpOnEnter(VisualDesignArticle)} />
         <Route path="/article/myprocess" component={scrollUpOnEnter(MyprocessArticle)} />

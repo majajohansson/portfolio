@@ -10,6 +10,7 @@ import doubleDiamondPicture from '../assets/Double_diamond.png';
 import organiseDesignTeamPicture from '../assets/designers_ways_of_working.png';
 import crypto from '../assets/powerDesignThinking/crypto_teaser.png';
 import duoProject from '../assets/duoProject/hero.png';
+import animations from '../assets/animations/animations.png';
 import { Article, Page, Banner } from '../ui';
 import { StyledArticleList } from '../styledComponents';
 
@@ -23,6 +24,11 @@ const Home = ({ match }) => (
         picture={duoProject}
         title="Unlocking possibilities: Redefining joint accounts"
         slug="duo-project"
+      />
+      <Article
+        picture={animations}
+        title="User delight with animations"
+        slug="animations"
       />
       <Article
         picture={crypto}

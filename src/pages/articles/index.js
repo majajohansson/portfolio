@@ -1,3 +1,4 @@
+import Animations from './Animations';
 import DesignPrice from './DesignPrice';
 import DoubleDiamond from './DoubleDiamond';
 import DuoProject from './DuoProject';
@@ -11,6 +12,7 @@ import VisualDesignArticle from './VisualDesignArticle';
 import ErisLawArticle from './ErisLawArticle';
 
 export {
+  Animations,
   DesignPrice,
   DoubleDiamond,
   DuoProject,

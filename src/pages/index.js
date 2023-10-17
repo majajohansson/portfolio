@@ -12,6 +12,7 @@ import {
   DuoProject,
   OrganiseDesignTeam,
   PowerDesignThinkingArticle,
+  Animations
 } from './articles';
 
 export {
@@ -28,4 +29,5 @@ export {
   DuoProject,
   OrganiseDesignTeam,
   PowerDesignThinkingArticle,
+  Animations
 }
