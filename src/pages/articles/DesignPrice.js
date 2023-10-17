@@ -6,6 +6,7 @@ import {
   StyledPost,
   StyledSummary,
   StyledSummaryPane,
+  StyledH2,
 } from '../../styledComponents';
 
 import designPrice from '../../assets/design-price.png';
@@ -23,9 +24,13 @@ const DesignPrice = ({ match }) => (
       </StyledSummaryPane>
     </StyledSummary>
     <StyledPost>
-      <StyledParagraph>The Swedish Design Awards (Svenska Designpriset) is a competition across many different design categories. My design team and I won silver in the category Digital. I competed while working for P.F.C., a Swedish FinTech startup that aims to become a user friendly neobank for people starting a new financial journey.</StyledParagraph>
-      <StyledParagraph>We submitted our mobile app to the Swedish Design Awards as we believed that it is providing a smooth, enjoyable and cohesive user experience across all features of the application. Finance is often seen as a boring, unwelcoming topic but we wanted to prove that it does not have to be the case. By providing a user interface that puts the customer in the center it is possible to emulate positive engagement for a financial application, which can result in more financial confidence.</StyledParagraph>
-      <StyledParagraph>A key for designing the P.F.C. app has been a complete and well defined design system. It has allowed us to have recogniseable design elements across the whole application which helps the customer to recognise the different functions and features. Having an established design system is also very useful during design iterations and allows us to produce beautiful wireframes efficiently.</StyledParagraph>
+      <StyledH2>Success at the Swedish Design Awards</StyledH2>
+      <StyledParagraph>I am thrilled to share our achievement at the Swedish Design Awards (Svenska Designpriset) where my dedicated design team and I secured a silver award in the Digital category. This was accomplished during my time at P.F.C., a forward-thinking Swedish FinTech startup committed to creating a user-friendly neobank for individuals embarking on a fresh financial journey.</StyledParagraph>
+      <StyledH2>Elevating User Experience in Finance</StyledH2>
+      <StyledParagraph>Our submission to the Swedish Design Awards centered around our mobile app, which we believed exemplified a seamless, enjoyable, and cohesive user experience across all its features. Finance, often regarded as a daunting and uninviting subject, need not be so. We were determined to challenge this perception by crafting a user interface that placed the customer at the forefront. Our aim was clear: to instill a sense of positive engagement within a financial application, ultimately fostering greater financial confidence among users.</StyledParagraph>
+      <StyledH2>The Power of a Comprehensive Design System</StyledH2>
+      <StyledParagraph>At the heart of our success in designing the P.F.C. app lies a meticulously crafted and well-defined design system. This system empowered us to establish consistent design elements throughout the application, enabling users to easily navigate its various functions and features. Moreover, the presence of a robust design system proved invaluable during design iterations, facilitating the efficient creation of elegant wireframes.</StyledParagraph>
+      <StyledParagraph>Our dedication to user-centric design and the implementation of a robust design system has not only earned us recognition at the Swedish Design Awards but, more importantly, it has enabled us to redefine the user experience in the realm of finance, demonstrating that it can be engaging, welcoming, and empowering.</StyledParagraph>
     </StyledPost>
   </Page>
 );

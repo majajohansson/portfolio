@@ -16,7 +16,8 @@ const MyProcessArticle = ({ match }) => (
     <StyledSummary>
       <StyledSummaryPane>
         <StyledH1>My UX design process</StyledH1>
-        <StyledParagraph>Everyone has different processes to complete a task. I created a schema displaying the process that I am using for the moment when working, and it works really well for me. However, I always like to discover new ways to tackle problems.<br/>Following, is the process I went through during a project at Moank, a FinTech company based in Stockholm.</StyledParagraph>
+        <StyledParagraph>Following, is the process I went through during a project during 2018 at Moank, a FinTech company based in Stockholm.</StyledParagraph>
+        <StyledParagraph>Everyone has different processes to complete a task. I created a schema displaying the process that I am using for the moment (2018) when working, and it works really well for me. However, I always like to discover new ways to tackle problems.</StyledParagraph>
       </StyledSummaryPane>
       <StyledSummaryPane>
         <img src={articleProcessPicture} />

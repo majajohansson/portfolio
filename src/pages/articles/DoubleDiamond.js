@@ -22,10 +22,10 @@ const DoubleDiamond = ({ match }) => (
       </StyledSummaryPane>
     </StyledSummary>
     <StyledPost>
-      <StyledParagraph>I’ve been working with the Double diamond process for many years. In the first phase, Discover and Define, we focus on expanding the scope of the problem before converging to define the challenges. In the second phase, Design and Deliver, we explore several different ways to solve the challenges. Lastly, converging to one solution.</StyledParagraph>
-      <StyledParagraph>I use this process when designing new features or improving existing ones. I prefer to involve several different roles in the process to get all point of views, and good ideas can come from anywhere. Throughout the process, I work closely with engineers to come up with solutions together.</StyledParagraph>
-      <StyledParagraph>The key during this whole process is to involve users. In the first phase I drive quantative and qualitative research such as surveys and interviews to find the needs and attitudes of the users. In the second phase I focus more on user testing the different solutions.</StyledParagraph>
-      <StyledParagraph>This is not a linear process, I usually repeat parts of the process, or the whole process to come up with the right solution.</StyledParagraph>
+      <StyledParagraph>I have extensive experience applying the Double Diamond process in my work. This approach involves two main phases: Discover and Define, followed by Design and Deliver.<br />In the Discover and Define phase, our primary goal is to broaden our understanding of the problem space before narrowing down to define the specific challenges we need to address.<br />Moving into the Design and Deliver phase, we explore a range of potential solutions for these challenges, ultimately converging on the most effective one.</StyledParagraph>
+      <StyledParagraph>I believe in a collaborative approach, which means engaging various team members with diverse perspectives. Valuable insights and ideas can originate from any role. Throughout this journey, close collaboration with engineers is essential, as it helps us develop solutions together.</StyledParagraph>
+      <StyledParagraph>User involvement remains central throughout the entire process. During the initial phase, I conduct both quantitative and qualitative research, leveraging methods such as surveys and interviews to unearth user needs and attitudes. In the latter phase, my focus shifts to rigorous user testing of different solutions to ensure they truly meet user expectations.</StyledParagraph>
+      <StyledParagraph>It's important to note that this process isn't strictly linear. I often find it necessary to revisit certain phases or even the entire process as we iterate towards the optimal solution.</StyledParagraph>
       <img src={doubleDiamond} />
     </StyledPost>
   </Page>
