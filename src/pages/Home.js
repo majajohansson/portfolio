@@ -9,6 +9,7 @@ import designPricePicture from '../assets/design-price.png';
 import doubleDiamondPicture from '../assets/Double_diamond.png';
 import organiseDesignTeamPicture from '../assets/designers_ways_of_working.png';
 import crypto from '../assets/powerDesignThinking/crypto_teaser.png';
+import duoProject from '../assets/duoProject/hero.png';
 import { Article, Page, Banner } from '../ui';
 import { StyledArticleList } from '../styledComponents';
 
@@ -18,6 +19,11 @@ const Home = ({ match }) => (
   <Page match={match}>
     <Banner />
     <StyledArticleList>
+      <Article
+        picture={duoProject}
+        title="Unlocking possibilities: Redefining joint accounts"
+        slug="duo-project"
+      />
       <Article
         picture={crypto}
         title="The power of design thinking in the world of cryptocurrency"

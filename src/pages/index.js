@@ -9,6 +9,7 @@ import {
   ErisLawArticle,
   DesignPrice,
   DoubleDiamond,
+  DuoProject,
   OrganiseDesignTeam,
   PowerDesignThinkingArticle,
 } from './articles';
@@ -24,6 +25,7 @@ export {
   ErisLawArticle,
   DesignPrice,
   DoubleDiamond,
+  DuoProject,
   OrganiseDesignTeam,
   PowerDesignThinkingArticle,
 }
