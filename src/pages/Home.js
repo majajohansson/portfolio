@@ -27,24 +27,24 @@ const Home = ({ match }) => (
         slug="duo-project"
       />
       <Article
-        picture={nudgeSuccess}
-        title="Nudging for success"
-        slug="nudging-for-success"
-      />
-      <Article
-        picture={animations}
-        title="User delight with animations"
-        slug="animations"
-      />
-      <Article
         picture={crypto}
         title="The power of design thinking in the world of cryptocurrency"
         slug="power-design-thinking-cryptocurrency"
       />
       <Article
+        picture={nudgeSuccess}
+        title="Nudging for success"
+        slug="nudging-for-success"
+      />
+      <Article
         picture={designPricePicture}
         title="Svenska Designpriset"
         slug="design-price"
+      />
+      <Article
+        picture={animations}
+        title="User delight with animations"
+        slug="animations"
       />
       <Article
         picture={doubleDiamondPicture}
