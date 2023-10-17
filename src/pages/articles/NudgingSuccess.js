@@ -6,6 +6,7 @@ import {
   StyledPost,
   StyledSummary,
   StyledSummaryPane,
+  StyledH2,
 } from '../../styledComponents';
 
 import hero from '../../assets/nudgeSuccess/hero.png';
@@ -17,8 +18,7 @@ const NudgingSuccess = ({ match }) => (
     <StyledSummary>
       <StyledSummaryPane>
         <StyledH1>Nudging for success</StyledH1>
-        <StyledParagraph>Own initiative to create user delight on login screen</StyledParagraph>
-        <StyledParagraph>As the holiday season approached in 2022, I wanted to do something special for our customers: surprise them with a snowfall animation on the login screen. The idea was that this would bring a moment of joy to our customers, as seasonal design elements for fintech and banking apps are not something you often come across in Sweden.</StyledParagraph>
+        <StyledParagraph>Nudging gently guides individuals toward better choices, fostering positive change through subtle, well-planned interventions. In this project, I used nudging to increase the conversion rate to the yearly subscription plan for a joint account feature in the P.F.C. fintech app.</StyledParagraph>
       </StyledSummaryPane>
       <StyledSummaryPane>
         <img src={hero} />
@@ -27,7 +27,7 @@ const NudgingSuccess = ({ match }) => (
     <StyledPost>
       <StyledParagraph>Behavioural science is the study of how humans make choices and decisions. It delves into the workings of our minds, emotions, and motivations.</StyledParagraph>
       <StyledParagraph>Nudging is a gentle and effective tool within this field, where positive changes are encouraged through subtle, well-thought-out interventions. It's like a friendly hand on your back, guiding you towards better decisions without taking away your freedom of choice. It's about creating environments and options that make it easier for individuals to make choices aligned with their own goals, leading to improved outcomes and well-being.</StyledParagraph>
-      <StyledParagraph>Using nudging to increase selection of the yearly subscription plan</StyledParagraph>
+      <StyledH2>Using nudging to increase selection of the yearly subscription plan</StyledH2>
       <img src={quickWireframe} />
       <img src={improvedWireframe} />
       <StyledParagraph>Limited choice: With four distinct subscription plans, we've struck a balance, providing diversity without overwhelming our users with too many options. By restricting the options, the decision-making process becomes easier. It's not about a lack of options; it's about streamlining the path to a choice that feels just right.</StyledParagraph>
