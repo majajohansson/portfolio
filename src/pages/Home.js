@@ -11,6 +11,7 @@ import organiseDesignTeamPicture from '../assets/designers_ways_of_working.png';
 import crypto from '../assets/powerDesignThinking/crypto_teaser.png';
 import duoProject from '../assets/duoProject/hero.png';
 import animations from '../assets/animations/animations.png';
+import nudgeSuccess from '../assets/nudgeSuccess/hero.png';
 import { Article, Page, Banner } from '../ui';
 import { StyledArticleList } from '../styledComponents';
 
@@ -24,6 +25,11 @@ const Home = ({ match }) => (
         picture={duoProject}
         title="Unlocking possibilities: Redefining joint accounts"
         slug="duo-project"
+      />
+      <Article
+        picture={nudgeSuccess}
+        title="Nudging for success"
+        slug="nudging-for-success"
       />
       <Article
         picture={animations}
