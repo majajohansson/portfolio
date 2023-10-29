@@ -7,6 +7,7 @@ import {
   StyledSummary,
   StyledSummaryPane,
   StyledH2,
+  StyledLink,
 } from '../../styledComponents';
 
 import hero from '../../assets/duoProject/hero.png';
@@ -19,7 +20,7 @@ const DuoProject = ({ match }) => (
   <Page match={match}>
     <StyledSummary>
       <StyledSummaryPane>
-        <StyledH1>Unlocking possibilities: Redefining joint accounts  </StyledH1>
+        <StyledH1>Unlocking possibilities: Redefining joint accounts</StyledH1>
         <StyledParagraph>Tools that help couples handle their joint finances was the most asked for feature in 2020 from our customers at P.F.C., a fintech user-friendly neobank app. The concept team and I was tasked with designing a solution to their needs; a subscription based feature that lets couples handle their joint economy in a hassle free way.</StyledParagraph>
         <StyledParagraph>5 weeks during 2021</StyledParagraph>
       </StyledSummaryPane>
@@ -47,7 +48,8 @@ const DuoProject = ({ match }) => (
       <StyledParagraph>Upon logging into the app, our customers immediately have a clear view of their two accounts: Solo and Duo, along with their individual balances, addressing their need for a private account. To streamline the process of using just one plastic card, we introduced a simple toggle feature. This enables users to effortlessly switch between the accounts they wish to link with the card.</StyledParagraph>
       <img src={home} />
       <StyledParagraph>After the first release, we tracked funnels and I worked closely with customer support to understand what our customers were saying about our new feature.</StyledParagraph>
-      <StyledParagraph>Read my article on how I used simple nudging techniques to significantly enhance our conversion rates for Duo subscriptions.</StyledParagraph>
+      <StyledParagraph>The need for being able to move a purchase to the correct account if the wrong one was used, was technically not possible. Instead, we solved it by allowing users to transfer money between their Solo and Duo account in a following app release.</StyledParagraph>
+      <StyledParagraph>Want to know how I significantly enhanced our conversion rates for Duo subscription using nudging? Read my article <StyledLink to="/article/nudging-for-success">"Nudging for success”</StyledLink>.</StyledParagraph>
       <img src={notification} />
     </StyledPost>
   </Page>
