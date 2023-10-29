@@ -19,7 +19,6 @@ const NudgingSuccess = ({ match }) => (
       <StyledSummaryPane>
         <StyledH1>Nudging for success</StyledH1>
         <StyledParagraph>Nudging gently guides individuals toward better choices, fostering positive change through subtle, well-planned interventions. In this project, I used nudging to increase the conversion rate to the yearly subscription plan for a joint account feature in the P.F.C. fintech app.</StyledParagraph>
-        <StyledParagraph>5 weeks during 2021</StyledParagraph>
       </StyledSummaryPane>
       <StyledSummaryPane>
         <img src={hero} />
