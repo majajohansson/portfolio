@@ -38,10 +38,10 @@ const DuoProject = ({ match }) => (
       </ol>
       <img src={insights} />
       <StyledH2>Ideating the solution</StyledH2>
-      <StyledParagraph>Building upon the issues we identified in the initial phase, we framed "How might we" questions to guide the creation of wireframes. Our primary focus was on finding solutions that didn't involve introducing an additional plastic card for our customers. We iterated and conducted another round of interviews to gather user feedback.</StyledParagraph>
+      <StyledParagraph>Building upon the issues we identified in the initial phase, we framed "How might we" questions to guide the creation of wireframes, which I did. Our primary focus was on finding solutions that didn't involve introducing an additional plastic card for our customers. I iterated on the wireframes and conducted another round of interviews to gather user feedback.</StyledParagraph>
       <StyledParagraph>Having a developer as part of our concept team proved invaluable. Their input early on allowed us to assess the feasibility of our ideas, especially since the product is quite intricate and involves financial aspects. Additionally, we maintained an ongoing dialogue with our legal department due to the numerous regulations governing this type of product.</StyledParagraph>
       <StyledH2>Refinement</StyledH2>
-      <StyledParagraph>We crafted interactive prototypes and subjected them to user testing to ensure that our solution aligns with our high standards for creating a user-friendly app.</StyledParagraph>
+      <StyledParagraph>I crafted interactive prototypes and subjected them to user testing to ensure that our solution aligns with our high standards for creating a user-friendly app.</StyledParagraph>
       <StyledParagraph>We strongly believe in the value of early releases to gather feedback, and this initial iteration, which we released, successfully addressed most of the user requirements.</StyledParagraph>
       <img src={steps} />
       <StyledParagraph>Only 3 steps to invite someone to a joint account?! Yes, we thought it was amazing too.</StyledParagraph>

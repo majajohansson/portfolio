@@ -27,8 +27,8 @@ const PowerDesignThinkingArticle = ({ match }) => (
       <StyledSummaryPane>
         <StyledH1>The power of design thinking in the world of cryptocurrency</StyledH1>
         <StyledParagraph>Goal: Craft a solution that enables effortless buying and selling of cryptocurrencies, catering to our target audience while aligning seamlessly with our core investment principles.</StyledParagraph>
-        <StyledParagraph>Team: 1 service designer, 2 UX/UI designers, 1 product owner & 1 developer</StyledParagraph>
-        <StyledParagraph>Time: 6 weeks</StyledParagraph>
+        <StyledParagraph>Team: 1 service designer, 2 UX/UI designers (including me), 1 product owner & 1 developer</StyledParagraph>
+        <StyledParagraph>Time: 6 weeks during 2022</StyledParagraph>
       </StyledSummaryPane>
       <StyledSummaryPane>
         <img src={crypto} />
