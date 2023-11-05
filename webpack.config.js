@@ -60,7 +60,7 @@ module.exports = env => {
           },
         },
         {
-          test: /\.(jpe?g|png)/,
+          test: /\.(jpe?g|png|gif)/,
           use: {
             loader: 'file-loader',
             options: {

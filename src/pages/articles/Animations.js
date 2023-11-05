@@ -10,6 +10,7 @@ import {
 
 import hero from '../../assets/animations/animations.png';
 import snowLogo from '../../assets/animations/snow_logo.png';
+import loginSnowflake from '../../assets/animations/login_snowflake.gif';
 
 const Animations = ({ match }) => (
   <Page match={match}>
@@ -28,6 +29,7 @@ const Animations = ({ match }) => (
       <StyledParagraph>Once my idea got the green light, I created the snowflake using Illustrator and used After Effects to make it come to life with animation. I made sure to get the speed of the falling snowflakes just right. It was important to strike a balance so that customers had enough time to see it, especially since most people don't spend much time on the login screen before tapping the login button. We also wanted the snowfall to look realistic.</StyledParagraph>
       <StyledParagraph>The snowfall animation and logo enhancement went live for about two months, receiving positive feedback from our users.</StyledParagraph>
       <StyledParagraph>I really enjoyed working on this quick project as it allowed me to improve my animation skills and create a more delightful user experience. It reinforced my belief in the power of thoughtful design to evoke positive emotions and create memorable interactions.</StyledParagraph>
+      <img src={loginSnowflake} style={{ maxWidth: '20rem' }} />
       <img src={snowLogo} />
     </StyledPost>
   </Page>

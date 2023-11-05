@@ -14,10 +14,10 @@ const AboutMe = ({ match }) => (
     <StyledProfile>
       <img src={profilePicture} />
       <StyledProfileDescription>
-        <StyledParagraph>My name is Maja. I'm a UX/UI Designer with a strong passion for creating exceptional user experiences. With a bachelor's degree in Engineering in Design and Product development from Linköpings University, I have honed my skills over six years in the dynamic field of UX design, primarily within the Fintech industry.</StyledParagraph>
+        <StyledParagraph>My name is Maja. I'm a UX and Product Designer with a strong passion for creating exceptional user experiences. With a bachelor's degree in Engineering in Design and Product development from Linköpings University, I have honed my skills over six years in the dynamic field of product development, primarily within the Fintech industry.</StyledParagraph>
         <StyledParagraph>Proficient in the entire customer journey, I have expertise in all stages of the design process, from user research to delivering polished final products. I am a self-driven professional who takes ownership of projects and effectively leads teams through each step.</StyledParagraph>
-        <StyledParagraph>My goal as a UX Designer is to design experiences that excel expectations, where users feel delighted, empowered, and able to accomplish their goals seamlessly. </StyledParagraph>
-        <StyledParagraph>If you are seeking a dedicated and versatile UX Designer who brings expertise, empathy, and a track record of successful projects to the table, I would be thrilled to connect and discuss how I can contribute to your organization.</StyledParagraph>
+        <StyledParagraph>My goal is to create exceptional, fun and easy-to-use digital solutions in the intersection of people, technology and business.</StyledParagraph>
+        <StyledParagraph>If you are seeking a dedicated and versatile designer who brings expertise, empathy, and a track record of successful projects to the table, I would be thrilled to connect and discuss how I can contribute to your organization.</StyledParagraph>
       </StyledProfileDescription>
     </StyledProfile>
     <StyledContact>
